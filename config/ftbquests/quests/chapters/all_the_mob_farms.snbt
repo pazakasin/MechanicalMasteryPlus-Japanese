@@ -1,0 +1,707 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "all_the_mob_farms"
+	group: "56617BF3F24DD586"
+	id: "18B1DE2E956C680D"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&bMob Grinding Utils&rは、プレイヤーがドロップや経験値を得るためにMobを狩る新しい方法を生み出すことを奨励します。"
+				""
+				"このMODの機能の一部を以下に示します。"
+			]
+			id: "76598CFCD001E86D"
+			tasks: [{
+				id: "4CCAE395028D0CEC"
+				title: "MGU"
+				type: "checkmark"
+			}]
+			title: "MGU: 初心者のためのモブファーム"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5A5CB5F0598570D8"
+				"4D93B9254FEC6B50"
+			]
+			hide_dependency_lines: true
+			id: "4CE9B6751DCDDEB8"
+			rewards: [{
+				count: 10
+				id: "596E6211DC272CAB"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4A9E22D2D6C006F0"
+					item: "mob_grinding_utils:nutritious_chicken_feed"
+					type: "item"
+				}
+				{
+					id: "50A3DE2698D98559"
+					item: "mob_grinding_utils:gm_chicken_feed_cursed"
+					type: "item"
+				}
+				{
+					id: "2D1139F436EA245C"
+					item: "mob_grinding_utils:golden_egg"
+					type: "item"
+				}
+				{
+					id: "1BBFCAC9A7F7E0BF"
+					item: "mob_grinding_utils:rotten_egg"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"03BACA51A4A40C61"
+				"1905F6FC1CCA0C94"
+				"407020295344388F"
+			]
+			id: "5A5CB5F0598570D8"
+			rewards: [{
+				id: "499BF6AFE6076CE1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				count: 5L
+				id: "37E1480EE75CCA79"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mob_grinding_utils:fluid_xp_bucket"
+							}
+							{
+								Count: 1b
+								id: "experienceobelisk:cognitium_bucket"
+							}
+							{
+								Count: 1b
+								id: "experienceobelisk:raw_experience_bucket"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:essence_bucket"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "液体膨張"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["76598CFCD001E86D"]
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
+			id: "4D93B9254FEC6B50"
+			rewards: [{
+				id: "3D9AD4C8E4E7ED69"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "ああああって言う"
+			tasks: [{
+				id: "1E0564781DE24CF2"
+				item: "mob_grinding_utils:mob_swab"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4D93B9254FEC6B50"]
+			id: "637530ADE77B3FE6"
+			tasks: [{
+				id: "1681784CB57D56BB"
+				item: "mob_grinding_utils:gm_chicken_feed"
+				type: "item"
+			}]
+			title: "みんなのためのスポーンエッグ"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["12595CDD8DAA643D"]
+			hide_dependency_lines: false
+			id: "03BACA51A4A40C61"
+			tasks: [{
+				id: "19FF5448937AC388"
+				item: {
+					Count: 1b
+					id: "experienceobelisk:experience_obelisk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5A5CB5F0598570D8"
+				"56B944C91AAFA0C7"
+				"07BA9726B9C45E4A"
+			]
+			id: "689F1A3E5D5B91B2"
+			tasks: [{
+				id: "0AAD59F76FD937E4"
+				item: "thermal:machine_bottler"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["72F19601A5222FCB"]
+			id: "7554F77C5773653E"
+			tasks: [
+				{
+					id: "3FC1116F2F8494AE"
+					item: "mob_grinding_utils:fan_upgrade_width"
+					type: "item"
+				}
+				{
+					id: "04D6EB46D35DBA75"
+					item: "mob_grinding_utils:fan_upgrade_height"
+					type: "item"
+				}
+				{
+					id: "0F1EFA7C33D6DEF9"
+					item: "mob_grinding_utils:fan_upgrade_speed"
+					type: "item"
+				}
+			]
+			title: "モブファンのアップグレード"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7A2BE6B1B533B9C6"]
+			id: "0CBFDD79E89B1CAC"
+			tasks: [
+				{
+					id: "57100179E6DFBE5B"
+					item: "mob_grinding_utils:saw_upgrade_sharpness"
+					type: "item"
+				}
+				{
+					id: "701687101A58B9E2"
+					item: "mob_grinding_utils:saw_upgrade_looting"
+					type: "item"
+				}
+				{
+					id: "2E96A2CE2C9A2C2C"
+					item: "mob_grinding_utils:saw_upgrade_beheading"
+					type: "item"
+				}
+			]
+			title: "モブマッシャーのアップグレード"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["78CA98EFC31886AA"]
+			id: "4B1B1A49497CE4BD"
+			tasks: [{
+				id: "6EB5E16477C5E3A4"
+				item: "mob_grinding_utils:solid_xp_baby"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7C2E3AEFC081FCE6"]
+			description: [
+				"液体XPを保管するには、以下のものを使用できます。"
+				""
+				"&bシンギュラリティタンク&r: あらゆる液体を32バケツまで収容できる基本的な液体タンクです。破壊されてもタンク内の液体は保持されるため、シンプルで持ち運び可能な液体輸送システムとなります。空のボトルをセットしたシンギュラリティタンクを右クリックすると、十分な液体XPがある場合にエンチャントボトルが付与されます（200MBの液体を消費します）。"
+				""
+				"&bジャンボタンク&r: シンギュラリティタンクの大型版で、最大1024バケツの液体を保管できます。"
+				""
+				"&bXPドレインシンギュラリティタンク&r: 標準のシンギュラリティタンクと同じですが、上部にドレインがあり、プレイヤーの経験値を吸い上げて液体XPに変換します。このブロックの上に立つと、タンクに経験値を保管して後で使用できます。&bXPタップ&rを取り付けることで、保管された液体XPを経験値オーブに戻すこともできます。"
+			]
+			id: "1905F6FC1CCA0C94"
+			tasks: [
+				{
+					id: "543919559DB6F011"
+					item: "mob_grinding_utils:tank_sink"
+					type: "item"
+				}
+				{
+					id: "5ACAA626ECBE264D"
+					item: "mob_grinding_utils:tank"
+					type: "item"
+				}
+				{
+					id: "559AE5564D1654A9"
+					item: "mob_grinding_utils:xp_tap"
+					type: "item"
+				}
+				{
+					id: "494059B3F44C5F53"
+					item: "mob_grinding_utils:jumbo_tank"
+					type: "item"
+				}
+			]
+			title: "XP用タンク"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["76598CFCD001E86D"]
+			description: [
+	"&6Mob Fans&rはMobをあらゆる方向に押し出すために使用されます。幅、高さ、距離の3つのアップグレードオプションがあり、&credstone signal&rで起動する必要があります。"
+]
+			id: "72F19601A5222FCB"
+			tasks: [{
+				id: "09DF573D08864C0F"
+				item: "mob_grinding_utils:fan"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["76598CFCD001E86D"]
+			description: [
+				"&bMob Masher&rは、Mobを自動的に倒せる機械です。"
+				""
+				"動作に電力は不要で、バニラレバーで作動できるレッドストーン信号のみが必要です。"
+				""
+				"Mob Masherで倒したMobはプレイヤーキルとしてカウントされ、経験値を獲得します。"
+				""
+				"様々なアップグレードを適用することで、Mob Masherの機能を向上できます。"
+			]
+			id: "7A2BE6B1B533B9C6"
+			tasks: [{
+				id: "267046DD2B1F8400"
+				item: "mob_grinding_utils:saw"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"76598CFCD001E86D"
+				"2F85BBFB58DD6581"
+			]
+			description: [
+				"&b吸収ホッパー&rは、範囲内のモブのドロップや経験値オーブを吸収します。"
+				""
+				"吸収ホッパーの基本範囲は半径3ブロックですが、アップグレードによって範囲を拡大できます。吸収ホッパーは内部タンクに16バケツ分の液体経験値を貯蔵でき、アイテム収集用の大容量インベントリを備えています。あらゆる側面からアイテムをインベントリに、液体経験値を液体タンクに排出するように設定できます。"
+			]
+			id: "7C2E3AEFC081FCE6"
+			tasks: [{
+				id: "03F6E3EF49C911AB"
+				item: "mob_grinding_utils:absorption_hopper"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4B1B1A49497CE4BD"
+				"637530ADE77B3FE6"
+			]
+			id: "25404B7E79DC215D"
+			tasks: [{
+				id: "5CE786162734C77C"
+				item: "mob_grinding_utils:entity_spawner"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["76598CFCD001E86D"]
+			id: "265E12E682DF59D7"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "4E602F70DF4743A7"
+				item: "mob_grinding_utils:ender_inhibitor_on"
+				type: "item"
+			}]
+			title: "エンダーインヒビター"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7C2E3AEFC081FCE6"]
+			description: [
+				"&bXP 固化剤&r は、流体 XP から XP ジェリーベイビーを作成するために使用できます。"
+				""
+				"より多くの流体を保持できるようにアップグレードできます。"
+			]
+			id: "78CA98EFC31886AA"
+			tasks: [
+				{
+					id: "54247B4FEC06BC4C"
+					item: "mob_grinding_utils:xpsolidifier"
+					type: "item"
+				}
+				{
+					id: "51901BBD0557C817"
+					item: "mob_grinding_utils:solid_xp_mould_baby"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			id: "12595CDD8DAA643D"
+			tasks: [{
+				id: "0DD812631BAF5A63"
+				title: "遊び心のある体験"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7C2E3AEFC081FCE6"]
+			id: "63E7FD35ACAED942"
+			tasks: [{
+				id: "53C58EED9FA536B8"
+				item: "mob_grinding_utils:absorption_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["25404B7E79DC215D"]
+			id: "7956E09BA486C7E9"
+			tasks: [
+				{
+					id: "0437978EBA4FF63C"
+					item: "mob_grinding_utils:spawner_upgrade_height"
+					type: "item"
+				}
+				{
+					id: "666595D9E29F0E0B"
+					item: "mob_grinding_utils:spawner_upgrade_width"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["76598CFCD001E86D"]
+			description: [
+	"&b色付きガラス&rは、Mobの巣を覆うために使用できるブロックです。透明ですが光を遮断するため、Mobがスポーンできる暗い空間を作るのに役立ちます。"
+]
+			id: "03502B9763A84193"
+			tasks: [{
+				id: "66D0C6EEC1D42076"
+				item: "mob_grinding_utils:tinted_glass"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["56B944C91AAFA0C7"]
+			id: "194E506E7AC5C270"
+			tasks: [{
+				id: "1038DC799D60398D"
+				item: "thermal:device_xp_condenser"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["37DD11756800FBE9"]
+			id: "07DB088E9EB40A30"
+			tasks: [{
+				id: "10C9B5E877A393D2"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			id: "56B944C91AAFA0C7"
+			tasks: [{
+				id: "2F60C8E34790FD62"
+				title: "熱い体験"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["56B944C91AAFA0C7"]
+			id: "6A218A91730851B0"
+			tasks: [{
+				id: "4AF8F3DB87DDF166"
+				item: "thermal:xp_storage_augment"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["56B944C91AAFA0C7"]
+			id: "6C24AB2564BC1773"
+			tasks: [{
+				id: "2B2359D4BAF3B0DA"
+				item: {
+					Count: 1b
+					id: "thermal:xp_crystal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["613EBA47BA715697"]
+			id: "37DD11756800FBE9"
+			tasks: [
+				{
+					count: 2L
+					id: "6DF2D1FE40E5E528"
+					item: "create:crushing_wheel"
+					type: "item"
+				}
+				{
+					id: "58BC2F7D063153EA"
+					item: "minecraft:redstone_ore"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			id: "613EBA47BA715697"
+			tasks: [{
+				id: "24A1A1003D36330D"
+				title: "クリエイティブな経験"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["02D8B336A457D143"]
+			id: "407020295344388F"
+			tasks: [{
+				id: "4A42608CF4D8DFBB"
+				item: "industrialforegoing:mob_crusher"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["07DB088E9EB40A30"]
+			id: "07BA9726B9C45E4A"
+			tasks: [
+				{
+					id: "43541051A8A668CF"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "11F19BBC3C29DE1E"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "6E8246750BFFB0A1"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			id: "02D8B336A457D143"
+			tasks: [{
+				id: "50F51A723EB60A07"
+				title: "産業経験"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2C14E8D9A46727E7"]
+			id: "19CFA2C9333B419F"
+			tasks: [
+				{
+					id: "5B90EAC042658589"
+					item: "rftoolsbuilder:shield_block1"
+					type: "item"
+				}
+				{
+					id: "0A7B40ADAA8A5204"
+					item: "rftoolsbuilder:builder"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["689F1A3E5D5B91B2"]
+			id: "7BEC4850E8A38EF7"
+			tasks: [{
+				id: "13CCA6E326246669"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6624FE15AB93E670"]
+			id: "2F85BBFB58DD6581"
+			tasks: [{
+				id: "6D8DA184E6221BC8"
+				item: "rftoolsutility:spawner"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2C14E8D9A46727E7"]
+			id: "6624FE15AB93E670"
+			tasks: [{
+				id: "54BF82D55209A014"
+				item: "rftoolsutility:syringe"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "2C14E8D9A46727E7"
+			tasks: [{
+				id: "2327099CE092A33A"
+				title: "RFToolableエクスペリエンス"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4BD70AF72EEA66EA"]
+			id: "42745CA3048608A9"
+			tasks: [{
+				id: "6249DFE7EAAFC47D"
+				item: "rftoolsutility:noteleport_module"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4BD70AF72EEA66EA"]
+			id: "28A0262D9E79DF9B"
+			tasks: [{
+				id: "6F385D87FEDED1B9"
+				item: "rftoolsutility:poison_module"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2C14E8D9A46727E7"]
+			id: "4BD70AF72EEA66EA"
+			tasks: [{
+				id: "763C1E12A5A8D9D2"
+				item: "rftoolsutility:environmental_controller"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4BD70AF72EEA66EA"]
+			id: "2D825786FED71B2B"
+			tasks: [{
+				id: "4060A24A865DBE17"
+				item: "rftoolsutility:luck_module"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				""
+				""
+				""
+				"1. 基本的な敵対Mobの戦利品を入手する"
+				""
+				"2. Mob Swabを作成し、MobのDNAを採取する"
+				""
+				"3. 液体の経験値バケツを5つ入手する（最も簡単な方法は、経験値オベリスクにレベル5を貯めて、空のバケツをオベリスクに使うことです）"
+			]
+			id: "5976E64E4FDEA879"
+			tasks: [{
+				id: "7FAC527FE77C3B61"
+				title: "t"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["19CFA2C9333B419F"]
+			id: "5E93A01D81763E76"
+			tasks: [{
+				id: "51BC33F436A9B737"
+				item: "rftoolsbuilder:shield_block2"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["78CA98EFC31886AA"]
+			id: "06277976AA195EB0"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "0D1EF4957B5602E0"
+				item: "mob_grinding_utils:xp_solidifier_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+	]
+	title: "体験 \\&あなた"
+}

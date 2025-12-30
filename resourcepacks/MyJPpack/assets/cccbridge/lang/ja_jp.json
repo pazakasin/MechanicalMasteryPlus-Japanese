@@ -1,0 +1,13 @@
+{
+  "block.cccbridge.source_block": "ソースブロック",
+  "block.cccbridge.target_block": "ターゲットブロック",
+  "block.cccbridge.redrouter_block": "RedRouterブロック",
+  "block.cccbridge.scroller_block": "スクロールペイン",
+  "block.cccbridge.animatronic_block": "アニマトロニック",
+  "cccbridge.display_source.source_block_display_source": "コンピュータからのデータ",
+  "cccbridge.general.unit.scroller": "Lua番号",
+  "cccbridge.general.unit.scroller.positive": "Lua番号+",
+  "cccbridge.general.unit.scroller.negative": "Lua番号 -",
+  "subtitles.cccbridge.cage_lock": "スクロールバーがロックされています",
+  "subtitles.cccbridge.cage_unlock": "スクローラーのロック解除"
+}

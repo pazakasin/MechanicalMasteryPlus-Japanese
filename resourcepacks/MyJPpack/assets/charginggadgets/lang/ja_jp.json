@@ -1,0 +1,7 @@
+{
+  "block.charginggadgets.charging_station": "充電ステーション",
+  "itemGroup.charginggadgets": "充電ガジェット",
+  "screen.charginggadgets.burn_time": "残り燃焼時間: %ss",
+  "screen.charginggadgets.energy": "エネルギー: %s/%s FE",
+  "screen.charginggadgets.no_fuel": "燃料源が空です"
+}

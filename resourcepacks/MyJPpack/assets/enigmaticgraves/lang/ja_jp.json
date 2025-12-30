@@ -1,0 +1,9 @@
+{
+  "config.jade.plugin_enigmaticgraves.grave": "謎めいた墓プラグイン",
+  "enigmaticgraves.grave.not_found": "縛られない墓",
+  "entity.enigmaticgraves.grave": "墓",
+  "grave.locate": "墓は%sにあります",
+  "info.grave.not_found": "墓の位置が見つかりません!",
+  "info.grave.remove_grave": "墓の場所がありません。墓を削除するには、（クリエイティブモードで）墓を右クリックしてください。",
+  "item.enigmaticgraves.grave_finder": "墓探し"
+}

@@ -1,0 +1,1662 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_5_endgame"
+	group: "2D94E5A1412E2495"
+	hide_quest_details_until_startable: true
+	icon: "kubejs:dragon_dna"
+	id: "41DDE820BE913888"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["157D4C0E9C7A0928"]
+			description: [
+				"「今、全てを理解した。この宇宙に生み出した全てのクリスタルの背後にある意味を。"
+				""
+				"それらは私を導き、最終目標に到達するために、より強力で力強い触媒の作り方をゆっくりと教えてくれた。最後の星が私を待っている…」"
+				""
+				"この章では、パックに含まれるほぼ全ての主要MODを組み合わせてプレイします。"
+				""
+				"可愛い「Create: Chromatic Return」もカメオ出演しています！"
+			]
+			icon: "kubejs:cube4"
+			id: "07980075BFE4C586"
+			rewards: [{
+				count: 64
+				id: "6EF6444338A6F5F8"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "ついに全部揃った"
+			tasks: [{
+				id: "120AF98B995C2B33"
+				title: "こんなに時間が経ってから..."
+				type: "checkmark"
+			}]
+			title: "何年も経ってから..."
+			x: -19.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["081C1697195680DC"]
+			description: [
+				"「宇宙の虚空はこれでできているって言う人もいるんだ！あれは『エーテル』って呼ばれてると思ってたんだけど…変！」"
+				""
+				"闇のエッセンスをそのまま物に注入するのは効率が悪い。先に濃縮しておけば、そこから*8倍*の闇のエッセンスを抽出できるんだ。"
+			]
+			icon: "kubejs:darkness_essence"
+			id: "059DCF9720BF62A2"
+			rewards: [{
+				count: 4
+				id: "355174964BFE7C2E"
+				item: "kubejs:enriched_darkness_essence"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7F3711C0AD95DC1F"
+					item: "kubejs:darkness_essence"
+					type: "item"
+				}
+				{
+					id: "216AD4222596F736"
+					item: "kubejs:enriched_darkness_essence"
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"059DCF9720BF62A2"
+				"782C51624A9C63BD"
+			]
+			description: [
+				"嘘だ！HDPEペレットをシート状に濃縮する最終工程があるんだ。"
+				""
+				"あらゆる種類の放射線に対してほぼ100%耐性を持つ、ユニークな超合金。"
+			]
+			hide_dependent_lines: true
+			id: "133E1F837FA4A41B"
+			rewards: [{
+				count: 4
+				id: "16C9D04597D15877"
+				item: "mekanism:hdpe_sheet"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "09B189D88272BD7C"
+					item: "mekanism:enrichment_chamber"
+					type: "item"
+				}
+				{
+					id: "66286AA7B2314394"
+					item: "mekanism:hdpe_sheet"
+					type: "item"
+				}
+			]
+			title: "ああ、シート、HDPE！"
+			x: -11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["133E1F837FA4A41B"]
+			description: [
+	"HDPE シートを純粋な暗闇でコーティングすることで、ポロニウムや反物質の生成の実験ができるかもしれません。"
+]
+			id: "53F4A40B4EAECB3E"
+			rewards: [{
+				id: "5D504A615B12116C"
+				item: "kubejs:black_hdpe_sheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A85AA47BC93CE53"
+				item: "kubejs:black_hdpe_sheet"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["53F4A40B4EAECB3E"]
+			description: [
+	"直射日光が当たると、太陽中性子活性装置は核分裂炉からの核廃棄物をポロニウムに変えることができます。"
+]
+			id: "41E380D0E0E5E75A"
+			rewards: [{
+				id: "2AA8A81628309085"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0D8DCA89FD12C7E3"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["059DCF9720BF62A2"]
+			description: [
+	"闇のエッセンスを使用すると、ウィザースケルトンの頭蓋骨を作成できるようになりました。これを使用して、ウィザーを召喚できます。"
+]
+			id: "384BB4E82F5D69C6"
+			rewards: [{
+				id: "2C30B178D34BDF57"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "7A64FB616CDF2212"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "4B37C69EB76CDE02"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"53F4A40B4EAECB3E"
+				"6D8D70B5DDDE619E"
+			]
+			hide_dependent_lines: true
+			id: "41D9B7AC1089FA83"
+			tasks: [
+				{
+					count: 60L
+					id: "5914B4A680D30F75"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+				{
+					count: 123L
+					id: "4A62CCF59257CE86"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "08A3E2771E114453"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+				{
+					id: "05B673DAC24FBB1E"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+			]
+			title: "超臨界位相シフター"
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"41D9B7AC1089FA83"
+				"13EE1ECF3DC0491D"
+				"31C75750B2530381"
+			]
+			description: [
+	"「この反物質は、物理的に不可能なものを作るのに間違いなく役立つでしょう！」"
+]
+			hide_dependent_lines: true
+			id: "6A313C7F7A10ABE7"
+			rewards: [{
+				count: 2
+				id: "1D0807CDA07757A1"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2241E41C58273405"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F6F2DB24C399EAA"]
+			description: [
+				"Powahの最終コンポーネントです。"
+				""
+				"大量のエネルギーと高レベルの通電ロッドが必要になります。通電プロセスは自動化しましたか？"
+			]
+			hide_dependent_lines: true
+			id: "4DA3EFBDC9FE2FDF"
+			rewards: [{
+				id: "43A2CDD945F3A04E"
+				item: "powah:crystal_nitro"
+				type: "item"
+			}]
+			tasks: [{
+				id: "543077701DABA7CD"
+				item: "powah:crystal_nitro"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"756E1F5554A92D83"
+				"53B31BBA455722E2"
+				"01A195F380CDB290"
+			]
+			description: [
+				"ここまで読んでくださった方は…"
+				""
+				"{image:ftbquests:textures/gui/congratulations.png width:180 height:180 align:1}"
+				""
+				"おめでとうございます！"
+				""
+				"「メカニカルマスター」の称号を授与されました！"
+				""
+				""
+				"CODの略称"
+				""
+				"{\"text\": \"Darkstar\", \"color\": \"red\", \"underlined\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://discord.com/channels/1022548429337006111/1152905805071384586/1166841218215444580\"}, \"extra\": [{\"text\": \" from Discord\", \"color\": \"white\", \"underlined\": false}]}"
+			]
+			icon: "minecraft:cod"
+			id: "79B1FCD79D650A18"
+			rewards: [
+				{
+					id: "7A303AA3ED13A4E6"
+					item: "minecraft:cod"
+					type: "item"
+				}
+				{
+					id: "6A4CF603C44761A2"
+					item: "ae2:creative_item_cell"
+					type: "item"
+				}
+				{
+					id: "783A1D5132892150"
+					item: "ae2:creative_fluid_cell"
+					type: "item"
+				}
+				{
+					id: "7568C55D1C4DEB5F"
+					item: "create:creative_crate"
+					type: "item"
+				}
+				{
+					id: "201B6013A18422A3"
+					item: "functionalstorage:creative_vending_upgrade"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "焼き上がり証明書！"
+			tasks: [
+				{
+					amount: 2147483647000L
+					fluid: "experienceobelisk:cognitium"
+					id: "1658F8FB52CCAB0F"
+					type: "fluid"
+				}
+				{
+					amount: 2147483647000L
+					fluid: "mekanismgenerators:fusion_fuel"
+					id: "5BBE8B51FC4B3D1D"
+					type: "fluid"
+				}
+				{
+					amount: 2147483647000L
+					fluid: "kubejs:light_essence"
+					id: "43F557F5742FC8E9"
+					type: "fluid"
+				}
+				{
+					amount: 2147483647000L
+					fluid: "kubejs:darkness_essence"
+					id: "529F30F9DE3D3546"
+					type: "fluid"
+				}
+				{
+					amount: 2147483647000L
+					fluid: "create:chocolate"
+					id: "350A923A6225CF92"
+					type: "fluid"
+				}
+				{
+					consume_items: true
+					count: 64738L
+					id: "2FB51FA942EE95DF"
+					item: "kubejs:cube1"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64738L
+					id: "557BEB351DBA6F6D"
+					item: "kubejs:cube2"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64738L
+					id: "62C57A6AA94BAF00"
+					item: "kubejs:cube3"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64738L
+					id: "5CD610B1ABD2C443"
+					item: "kubejs:cube4"
+					type: "item"
+				}
+			]
+			title: "代金引換"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["756E1F5554A92D83"]
+			description: [
+	"無限の運動応力容量。"
+]
+			hide_dependent_lines: true
+			id: "0F08BE53368BBA0E"
+			rewards: [{
+				id: "3A0A3C4339708746"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7C236303EF71DB29"
+				item: "create:creative_motor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["756E1F5554A92D83"]
+			description: [
+				"「無限の力」"
+				""
+				"注意：究極エネルギーキューブを充電するために置かないでください。ワイヤレス充電、または充電機にアイテムとして入れて充電してください。置くと所有者になり、クラフトレシピで使用できなくなります。無限の力。"
+			]
+			hide_dependent_lines: true
+			id: "643082630E0B6CFD"
+			rewards: [{
+				id: "4A5FBCAA3077A4D5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "作り方のクエストを読む"
+			tasks: [{
+				id: "6B6B22A465884FF5"
+				item: {
+					Count: 1b
+					id: "mekanism:creative_energy_cube"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["756E1F5554A92D83"]
+			description: [
+	"無制限の洗練されたストレージ容量"
+]
+			hide_dependent_lines: true
+			id: "001789AD77BFECCF"
+			rewards: [{
+				id: "0E75051A6141038B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4F9815D48862D2A4"
+				item: "refinedstorage:creative_storage_disk"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["799C7A2E5C9265DB"]
+			description: [
+				"シャドウエッセンスは、闇のエッセンスの主な材料です。"
+				""
+				"闇のエッセンスは、エンドゲームのメカニズムブロックやアイテムの材料を作成するために使用する、カスタムメカニズム注入タイプです。"
+				""
+				"注：シャドウエッセンスバケツはアイテムとしての使用はなく、クエストを完了するためにのみ使用されます。この液体はCreateミキサーで使用してください。"
+			]
+			id: "081C1697195680DC"
+			rewards: [{
+				id: "3E41AF8452F38C58"
+				item: "kubejs:darkness_essence_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06811927C1845A13"
+				item: "kubejs:darkness_essence_bucket"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["623433DBF296A6DF"]
+			description: [
+	"Gilded Blackstone を粉砕すると、非常に低い確率で炭素粉末と岩盤の破片が得られます。"
+]
+			id: "799C7A2E5C9265DB"
+			rewards: [{
+				id: "0355E89CB4276D68"
+				item: "createchromaticreturn:carbon_powder"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54E65B1C9931ADA3"
+				item: "createchromaticreturn:carbon_powder"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["384BB4E82F5D69C6"]
+			description: [
+				"「ついにネザースターだ！」"
+				""
+				"それ自体が強力なアイテムであり、最強の星を生み出す材料としても機能します。"
+			]
+			hide_dependent_lines: true
+			id: "2F6F2DB24C399EAA"
+			rewards: [{
+				id: "79FD2E3E39E2BD3D"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02BC1A7A17F01DD5"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"41E380D0E0E5E75A"
+				"11E00D93DEF3B126"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+	"ポロニウムとプルトニウムを使えば反物質を作ることができる"
+]
+			hide_dependent_lines: true
+			id: "13EE1ECF3DC0491D"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					count: 4
+					id: "3E3F1174C7017C27"
+					item: "mekanism:pellet_plutonium"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4311C40FBB69DB03"
+					item: "mekanism:pellet_polonium"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "00A8E9F6942827FB"
+					item: "mekanism:pellet_plutonium"
+					type: "item"
+				}
+				{
+					id: "74EB63DD5CD1C96D"
+					item: "mekanism:pellet_polonium"
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4845D27E265AF3F4"
+				"09ED24BFED3BBE29"
+			]
+			id: "11E00D93DEF3B126"
+			rewards: [
+				{
+					id: "521C075C8D33C7F4"
+					item: "createchromaticreturn:polonium_nugget"
+					type: "item"
+				}
+				{
+					id: "166FA38CEDE98FA6"
+					item: "createchromaticreturn:plutonium_nugget"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0EA395DCD833F4A0"
+					item: "createchromaticreturn:plutonium_nugget"
+					type: "item"
+				}
+				{
+					id: "2B3E9D6096E1833B"
+					item: "createchromaticreturn:polonium_nugget"
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4556B0134F410EC5"]
+			id: "4845D27E265AF3F4"
+			rewards: [{
+				id: "1BBEA806A56B8FF6"
+				item: "mekanism:crystal_uranium"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7024ADCD3338E20C"
+				item: "mekanism:crystal_uranium"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"081C1697195680DC"
+				"56D5909AEA258984"
+			]
+			description: [
+				"「鋼鉄の影の形態を得るには、色と影を混ぜる必要がある！」"
+				""
+				""
+				"クロマティックコンパウンドとシャドウエッセンスを混ぜると、シャドウスチールを作成できます。"
+				""
+				"作成にはシャドウスチールが必要です。"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "09ED24BFED3BBE29"
+			rewards: [{
+				count: 4
+				id: "0B8681D420BE2B88"
+				item: "createchromaticreturn:shadow_steel"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "729334D9A268D496"
+				item: "createchromaticreturn:shadow_steel"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3ABB6AD99E3C09EC"]
+			id: "4556B0134F410EC5"
+			tasks: [{
+				id: "5A0C9E032B9144DD"
+				item: "mekanism:chemical_crystallizer"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["07B8B19717AA7365"]
+			id: "3ABB6AD99E3C09EC"
+			tasks: [{
+				id: "5F8916A7D7CE583E"
+				item: "mekanism:chemical_washer"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["24C282ED9BA60D78"]
+			id: "07B8B19717AA7365"
+			tasks: [{
+				id: "6E5DE3B36637498A"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["07980075BFE4C586"]
+			description: [
+				"このクエストラインの分岐では、最も効率的な鉱石処理ラインの一部である金属結晶の作成へと進みます。"
+				""
+				"これにより、メカニズムSPSパスの代わりに、ウラン結晶を使用してプルトニウムとポロニウムの塊、そして最終的には反物質を生成できるようになります。"
+			]
+			id: "24C282ED9BA60D78"
+			tasks: [
+				{
+					id: "39A0EA13CBC52FCD"
+					item: "mekanism:chemical_infuser"
+					type: "item"
+				}
+				{
+					id: "773FE3067B95922D"
+					item: "mekanism:rotary_condensentrator"
+					type: "item"
+				}
+				{
+					id: "66DCCF254F08F5AA"
+					item: "mekanism:chemical_oxidizer"
+					type: "item"
+				}
+				{
+					id: "1DDADC933EF46C54"
+					item: "mekanism:electrolytic_separator"
+					type: "item"
+				}
+			]
+			title: "ガス状のウサギの穴へ！"
+			x: -17.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["07980075BFE4C586"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "56D5909AEA258984"
+			rewards: [{
+				id: "41116B03F76A100C"
+				item: "createchromaticreturn:chromatic_compound"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27CB841D3051C864"
+				item: "createchromaticreturn:chromatic_compound"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"48440A9003383920"
+				"429F208B1F91C217"
+				"11A5CEEFEE37D7FF"
+			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "31C75750B2530381"
+			rewards: [{
+				id: "5C95F3F8CE440974"
+				item: "createchromaticreturn:multiplite_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "578894E787C3CF84"
+				item: "createchromaticreturn:multiplite_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41D9B7AC1089FA83"]
+			description: [
+	"...シュルカーの殻も..."
+]
+			hide_dependent_lines: true
+			id: "48440A9003383920"
+			rewards: [{
+				id: "7AF48C044181FF25"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5BE23F2C4F5A960A"
+				item: "minecraft:shulker_shell"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"56D5909AEA258984"
+				"133E1F837FA4A41B"
+			]
+			hide_dependent_lines: true
+			id: "429F208B1F91C217"
+			rewards: [{
+				count: 16
+				id: "41E6415651379CA8"
+				item: "createchromaticreturn:refined_radiance"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "53B45F060C0522FA"
+				item: "createchromaticreturn:refined_radiance"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"31C75750B2530381"
+				"130D59A469F3041C"
+			]
+			description: [
+				"「最後の武器は俺のものだ！ この光る爪で岩盤さえも引き裂ける！」"
+				""
+				"輝く爪は敵を蒸発させ、ブロックを粉砕する強力な武器だ。"
+				"岩盤を削り取ることもでき、稀に「岩盤の破片」も手に入る！"
+				""
+				"ちょっと待て、岩盤はどこだ？"
+			]
+			hide_dependent_lines: true
+			id: "146B61BAC1D8D21C"
+			rewards: [{
+				id: "01727DE399505536"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3835248C8A5161B7"
+				item: "createchromaticreturn:radiant_glow_claws"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["41D9B7AC1089FA83"]
+			description: [
+				"みんなモブファームが嫌いなのは分かってるよ、でもそんなに苦痛じゃないよ、約束するよ！"
+				""
+				"正しい方向へ導くためのちょっとしたヒントを教えてあげるよ："
+				""
+				"Mob Grinding Utilsには、モブファームを作るためのあらゆるツールが揃っている…"
+			]
+			hide_dependent_lines: true
+			id: "0411623715D35216"
+			rewards: [{
+				id: "022452408F4E3A68"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
+			secret: true
+			tasks: [{
+				elapsedTime: 1800L
+				id: "51AF240FB3524C4B"
+				secret: true
+				title: "はい、無料で一つあげます..."
+				type: "questsadditions:time"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0411623715D35216"]
+			description: [
+				"わかった…もう一つ："
+				""
+				"エンダーマンが出現するのを一日中待つ必要はもうない…"
+				""
+				"恐ろしい大地は暗い場所でのモブの出現を早める"
+			]
+			hide_dependent_lines: true
+			id: "1933F4C458289C5F"
+			rewards: [{
+				id: "3E9767471A1974DF"
+				item: "farmersdelight:sweet_berry_cookie"
+				type: "item"
+			}]
+			secret: true
+			tasks: [{
+				elapsedTime: 3600L
+				id: "690206D63B6B9256"
+				secret: true
+				type: "questsadditions:time"
+			}]
+			title: "...そしてもう一つ..."
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1933F4C458289C5F"]
+			description: [
+				"知っていることを全部教えましょう："
+				""
+				"腐った卵を作る"
+				""
+				"エンダーマンの頭は2つの方法で入手できます："
+				""
+				"- バニラの方法：エンダーマンをチャージされたキーパーの爆発で倒す"
+				"- モブグラインドユーティリティの斬首アップグレードを使ってモブを倒す"
+				""
+				"エンダーマンを無限に入手するには、通常のモブファームを構築してエンダーマンがスポーンするまで待機させ、その後MGUを使って以下の操作を行います："
+				""
+				"- モブスワブを作成し、エンダーマンに使用してDNAを採取する"
+				"- モブスワブとDNAを使ってGMチキンフィードを作成する"
+				"- GMチキンフィードをニワトリに与えてスポーンエッグを入手する"
+				"- スポーンエッグをMGUエンティティスポナーで使用する"
+			]
+			id: "63A85FCB13B32F24"
+			rewards: [{
+				id: "1CE1B816EB95E85E"
+				item: "farmersdelight:honey_cookie"
+				type: "item"
+			}]
+			secret: true
+			tasks: [{
+				elapsedTime: 5400L
+				id: "564D20B2141627D1"
+				title: "...良いことは3つある！"
+				type: "questsadditions:time"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["41D9B7AC1089FA83"]
+			description: [
+	"本当に助けが必要ですか?"
+]
+			hide_dependent_lines: true
+			id: "11A5CEEFEE37D7FF"
+			rewards: [{
+				id: "488DA08093013A80"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "52AE41680341E08F"
+				item: "supplementaries:enderman_head"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["07980075BFE4C586"]
+			description: [
+				"{image:ftbquests:textures/gui/cat.png width:204 height:136 align:1}"
+				""
+				"ブラックストーンに金を注入すると、（この素晴らしい猫ちゃんの）金メッキブラックストーンができます。"
+				""
+				"ブラックストーンは、Createで丸石をまとめて加工するか、Thermalの火成岩押し出し機を使うことで入手できます。"
+			]
+			id: "623433DBF296A6DF"
+			rewards: [{
+				count: 4
+				id: "3DBF83BD45A7AFA8"
+				item: "minecraft:gilded_blackstone"
+				type: "item"
+			}]
+			subtitle: "ブラックゴールド"
+			tasks: [{
+				id: "7D7DF0531A16DAC0"
+				item: "minecraft:gilded_blackstone"
+				type: "item"
+			}]
+			title: "オーラム・ニグラム"
+			x: -17.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6A313C7F7A10ABE7"
+				"1965B5FDEC5FD6B3"
+				"30601B84DACB7390"
+				"6F1E5EAE63AE736A"
+				"0F9E0DC05C6BD1C8"
+			]
+			description: [
+				"「神話上の獰猛な獣の頭！一生をかけて手に入れる価値のあるトロフィーだ！」"
+				""
+				"もうすぐ完成です！ドラゴンヘッドは、ほとんどのクリエイティブアイテムの材料の一つです。"
+			]
+			hide_dependent_lines: true
+			id: "756E1F5554A92D83"
+			rewards: [{
+				id: "4F2EBDD30EA53A91"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "1531F6AC3B7F081A"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"692E72B7A959AB55"
+				"6A313C7F7A10ABE7"
+			]
+			description: [
+				"「この音に反応する有機ブロックを手に入れるには、強敵を倒さねばならない！」"
+				""
+				"ウォーデンは100%の確率でスカルク触媒を1個ドロップします（拾得しても、これ以上でもこれ以下でもありません）。"
+				""
+				"スカルクファームを始めるには、触媒を使ってスカルクセンサーを作成し、半径8ブロックの円内に不要なブロックを配置する必要があります。"
+				""
+				"この円内でMob/プレイヤーが死亡するたびに、死亡したMob/プレイヤーの経験値を使用して、周囲にスカルクの鉱脈を持つスカルクの群れが生成されます。"
+				""
+				"{\"text\": \"For more details go to \", \"extra\": [{\"text\": \"Minecraft Wiki\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://minecraft.wiki/w/Sculk_Catalyst\"}}]}"
+			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "1965B5FDEC5FD6B3"
+			tasks: [
+				{
+					id: "1F4A1003913CD542"
+					item: "minecraft:warden_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "6FBB7326A4BCF064"
+					item: "minecraft:sculk_catalyst"
+					type: "item"
+				}
+			]
+			title: "看守を殺せ！"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["146B61BAC1D8D21C"]
+			description: [
+				"岩盤の破片は粉砕することで様々な資源に生まれ変わります。"
+				""
+				"利益は出ますか？"
+			]
+			hide_dependent_lines: true
+			id: "30601B84DACB7390"
+			rewards: [{
+				id: "042E2BD52F032D06"
+				item: "createchromaticreturn:bedrock_shard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48B2C6F73537778A"
+				item: "createchromaticreturn:bedrock_shard"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["692E72B7A959AB55"]
+			description: [
+				"「その臭いを嗅げば、その獣がどんなに汚らしい生き物か分かる！」"
+				""
+				"エンダードラゴンを倒してその息を集めることはできないので、それを合成する方法を見つけました。"
+			]
+			hide_dependent_lines: true
+			id: "6F1E5EAE63AE736A"
+			rewards: [{
+				id: "48247B9D8C2E1494"
+				type: "xp"
+				xp: 2000
+			}]
+			tasks: [{
+				count: 16L
+				id: "5699FAAF92D9C6C6"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"48440A9003383920"
+				"4DA3EFBDC9FE2FDF"
+				"7B800056097E8D63"
+			]
+			description: [
+				"「この二重らせん構造こそが、全ての機械エッセンスの集大成だ！」"
+				""
+				"全てのエッセンスを用いることで、獰猛な獣のDNAを合成できるようになった。"
+				""
+				"一体何ができるのだろうか（あるいはできないのだろうか…）。"
+			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "692E72B7A959AB55"
+			rewards: [{
+				id: "205058F2F45B9562"
+				item: "kubejs:dragon_dna"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34E9581B16A62F62"
+				item: "kubejs:dragon_dna"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"429F208B1F91C217"
+				"09ED24BFED3BBE29"
+			]
+			hide_dependent_lines: true
+			id: "130D59A469F3041C"
+			tasks: [{
+				id: "1E3F42BFCF464B34"
+				item: "createchromaticreturn:refined_mechanism"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2F6F2DB24C399EAA"
+				"7860A19AB2ECEF17"
+			]
+			description: [
+				"「終わりの時は近いぞ、美しき友よ！」"
+				""
+				"伝説のドラゴンの生命のエッセンスのための、もう一つの高級材料！"
+			]
+			hide_dependent_lines: true
+			id: "7B800056097E8D63"
+			rewards: [{
+				id: "786915E57FF9AD21"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A544E38F73A0F4E"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B9AE47D2EBF5155"]
+			description: [
+	"ウィザーを自動召喚する方法はいくつかありますが、最も簡単な方法の一つはウィザービルダーを使うことです。必要なアイテムを追加するだけで自動的に召喚され、モブクラッシャーで倒せば自動的にネザースターが手に入ります。"
+]
+			id: "685293F21555B446"
+			rewards: [{
+				id: "06E0E917631723BB"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [
+				{
+					id: "35BB05E3EA972E3B"
+					item: "industrialforegoing:wither_builder"
+					type: "item"
+				}
+				{
+					id: "57530F433B853420"
+					item: "industrialforegoing:mob_crusher"
+					type: "item"
+				}
+			]
+			title: "ウィザーの自動化"
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1893CB9F472AC87C"]
+			description: [
+	"エンダードラゴンの角はそれで作られているからです！"
+]
+			hide_dependent_lines: true
+			id: "0F9E0DC05C6BD1C8"
+			rewards: [{
+				id: "2A66EC02EE11D62B"
+				item: "thermal:cured_rubber_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A87E56037C323ED"
+				item: "thermal:cured_rubber_block"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["07980075BFE4C586"]
+			id: "3F9204C540EA9C29"
+			tasks: [{
+				id: "5F4EE6E2EA431FF7"
+				item: "thermal:rubberwood_sapling"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3F9204C540EA9C29"]
+			id: "3F3FEAD18FC00E39"
+			tasks: [{
+				id: "38F850E8A0B50A5E"
+				item: "thermal:device_tree_extractor"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3F3FEAD18FC00E39"]
+			id: "1D5608CACF4CDE80"
+			tasks: [{
+				id: "75BD13DDB8A31DAE"
+				item: "thermal:rubber"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["41D9B7AC1089FA83"]
+			description: [
+	"エンダーマンの頭と同様の方法でガストの涙を入手できます..."
+]
+			hide_dependent_lines: true
+			id: "7860A19AB2ECEF17"
+			tasks: [{
+				id: "79DD177198546FFA"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["07980075BFE4C586"]
+			id: "06043955D513CDD3"
+			rewards: [{
+				id: "19FD7AFFC3677ED6"
+				item: "kubejs:cube4"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63AE938F4FC36BEF"
+				item: {
+					Count: 1b
+					id: "adminshop:permit"
+					tag: {
+						display: {
+							Lore: [
+								"[{\"text\":\"Buy: Enchanting Bottle\",\"italic\":false}]"
+								"[{\"text\":\"Buy: Rubberwood Sapling\",\"italic\":false}]"
+								"[{\"text\":\"Buy: More nuclear ores\",\"italic\":false}]"
+								"[{\"text\":\"Buy: Nether Quartz Ore\",\"italic\":false}]"
+								"[{\"text\":\"Buy: End Gobber Ore\",\"italic\":false}]"
+								"[{\"text\":\"Buy: Many liquids\",\"italic\":false}]"
+								"[{\"text\":\"Buy: Many spawn eggs\",\"italic\":false}]"
+								"[{\"text\":\"Buy: Flux Networks Resources\",\"italic\":false}]"
+								"[{\"text\":\"Sell: Liquid Experience\",\"italic\":false}]"
+								"[{\"text\":\"Sell: Refined Fuel\",\"italic\":false}]"
+								"[{\"text\":\"Sell: Biofuel\",\"italic\":false}]"
+								"[{\"text\":\"Sell: Lava\",\"italic\":false}]"
+							]
+							Name: "[{\"text\":\"[T4] Trade Permit\",\"color\":\"magenta\",\"italic\":false}]"
+						}
+						key: 4
+					}
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"756E1F5554A92D83"
+				"09ED24BFED3BBE29"
+			]
+			description: [
+	"炎バーナーの熱レベルを永久的に無料で設定できます。"
+]
+			id: "5414E6D079200533"
+			optional: true
+			tasks: [{
+				id: "20511334736BEEF1"
+				item: "create:creative_blaze_cake"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			description: [
+	"ウィザーをステイシスチャンバー内に閉じ込め、その真上に流体レーザーベースを配置して、エーテルガスを受動的に取得します。"
+]
+			hide_dependency_lines: true
+			id: "05A0C01966A06A98"
+			optional: true
+			rewards: [{
+				id: "6932205E63F2FBA1"
+				item: "industrialforegoing:ether_gas_bucket"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4CE0541FA8CC0B50"
+					item: "industrialforegoing:ether_gas_bucket"
+					type: "item"
+				}
+				{
+					id: "45FF0C8EE95F6CB6"
+					item: "industrialforegoing:stasis_chamber"
+					type: "item"
+				}
+				{
+					id: "028BB5B8B978C1B4"
+					item: "industrialforegoing:laser_drill"
+					type: "item"
+				}
+				{
+					id: "3AEF9320EDC346FB"
+					item: "industrialforegoing:fluid_laser_base"
+					type: "item"
+				}
+				{
+					id: "6A2FE44642802298"
+					item: "industrialforegoing:laser_lens10"
+					type: "item"
+				}
+			]
+			title: "エーテルガスの入手"
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"05A0C01966A06A98"
+				"2F6F2DB24C399EAA"
+			]
+			description: [
+	"エーテルガスを使用して、最高レベルのマシンフレームを作成します。"
+]
+			id: "4B9AE47D2EBF5155"
+			optional: true
+			rewards: [{
+				id: "6C328EC758FB27B0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3DEBDD1821AE9150"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1D5608CACF4CDE80"]
+			hide_dependent_lines: true
+			id: "1893CB9F472AC87C"
+			tasks: [{
+				id: "1F3D11A95AD03ECF"
+				item: "thermal:cured_rubber"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["43AC20FDD93A8C83"]
+			description: [
+	"最後のステップでは、エチレン、酸素、基質とともに PRC を再度使用して HDPE ペレットを取得します。"
+]
+			id: "782C51624A9C63BD"
+			rewards: [{
+				count: 8
+				id: "7C55F0AE8A6D82FD"
+				item: "mekanism:hdpe_pellet"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "65CB9F23BD71C0F6"
+					item: "mekanism:pressurized_reaction_chamber"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "68F20C45799A184A"
+					item: "mekanism:hdpe_pellet"
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5D80E657B7D2E986"]
+			description: [
+				"次のステップは、水、水素、バイオ燃料をPRCに入れて基質とエチレンを得ることです。"
+				""
+				"ヒント：エチレンを燃焼させてエネルギーを生成するか、再利用して基質を8倍にして副産物として酸素を得ることもできます。"
+			]
+			id: "43AC20FDD93A8C83"
+			rewards: [{
+				count: 8
+				id: "179A6B48E3B69CB3"
+				item: "mekanism:substrate"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "58DF17E6C71835E9"
+					item: "mekanism:pressurized_reaction_chamber"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2EAE109EAB2C8E89"
+					item: "mekanism:substrate"
+					type: "item"
+				}
+			]
+			x: -14.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7E039D8211DBDCD6"]
+			description: [
+	"2 番目のステップでは、粉砕機で作物を加工してバイオ燃料を取得します。"
+]
+			id: "5D80E657B7D2E986"
+			rewards: [{
+				count: 8
+				id: "562EB2728F17E049"
+				item: "mekanism:bio_fuel"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4D4B7C4BC4F8B3B6"
+					item: "mekanism:crusher"
+					type: "item"
+				}
+				{
+					id: "05E4C8E7EBC42B6F"
+					item: "mekanism:bio_fuel"
+					type: "item"
+				}
+			]
+			title: "バイオマスの堆肥化"
+			x: -15.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["07980075BFE4C586"]
+			description: [
+				"Mekanism 生産ラインのもう一つの分野であるこのラインでは、HDPE シートの製造についてご案内します。"
+				""
+				"最初のステップは、水を電気分解して水素（および酸素。酸素は貯蔵するか廃棄するかを選択できます）を生成することです。"
+			]
+			id: "7E039D8211DBDCD6"
+			tasks: [{
+				id: "59E91CD0D3A43B0C"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			title: "H2O = H2 + O-"
+			x: -17.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6A313C7F7A10ABE7"]
+			description: [
+	"この拡張機能により、サーマルマシンはエネルギーを消費せず、アイテムを非常に高速に処理します。"
+]
+			id: "7CE54486D31A47BA"
+			optional: true
+			rewards: [{
+				id: "5E81310812AF4B99"
+				item: "thermal:machine_efficiency_creative_augment"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "52A22B4A47C791B2"
+				item: "thermal:machine_efficiency_creative_augment"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6A313C7F7A10ABE7"]
+			description: [
+	"この増強により、触媒を使用する熱機械 (誘導製錬所、粉砕機) は触媒を消費しなくなります。"
+]
+			id: "21F2CA1F9CDC6892"
+			optional: true
+			rewards: [{
+				id: "00B6F256ADF08CDB"
+				item: "thermal:machine_catalyst_creative_augment"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "75A5F00493F526D1"
+				item: "thermal:machine_catalyst_creative_augment"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["09ED24BFED3BBE29"]
+			description: [
+				"SPSマシンを動かすには、大量の電力が必要です。"
+				""
+				"すでにSPSマシンを製作されている方はいらっしゃると思いますが、まだ製作されていない方は今すぐ製作し、最小サイズよりも大きなサイズにすることをお勧めします。"
+				""
+				"[\"詳細については、Wikiをご覧ください\", {\"text\": \"https://wiki.aidancbrady.com/wiki/Induction_Matrix\", \"color\": \"yellow\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://wiki.aidancbrady.com/wiki/Induction_Matrix\" }}]"
+			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "6D8D70B5DDDE619E"
+			rewards: [{
+				count: 16
+				id: "3631A096B236BB19"
+				item: "mekanism:ultimate_universal_cable"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 32L
+					id: "3B49BA145046C182"
+					item: "mekanism:induction_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "38BCC1D1092CE0D6"
+					item: "mekanism:induction_port"
+					type: "item"
+				}
+				{
+					id: "594A6F927E7A3F2F"
+					item: "mekanism:basic_induction_cell"
+					type: "item"
+				}
+				{
+					id: "6EE1FEA716E730E8"
+					item: "mekanism:basic_induction_provider"
+					type: "item"
+				}
+			]
+			title: "誘導マトリックス"
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["07980075BFE4C586"]
+			description: [
+	"最終クエストに必要な最大 int 流体はすべて、10k ブロックのボリュームに配置すると無限にすることができ、ホース プーリーを使用して無限に排出できます。"
+]
+			hide_dependency_lines: true
+			id: "01A195F380CDB290"
+			rewards: [{
+				id: "1027AAB671AAE0C5"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [
+				{
+					id: "25A18E61C307EA86"
+					item: "create:hose_pulley"
+					type: "item"
+				}
+				{
+					id: "226682B2A9BB8432"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			title: "底なしの流体ピット"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["07980075BFE4C586"]
+			description: [
+	"流体と同様に、Mekanism ガスは 10k の体積を液体の形で満たすことによって無限にすることができます。"
+]
+			hide_dependency_lines: true
+			id: "53B31BBA455722E2"
+			rewards: [{
+				id: "2B92B6723E196653"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "364BB236D3DF4414"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			title: "底なしのガスピット"
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7B3EE270553254E3"
+				"6A313C7F7A10ABE7"
+			]
+			description: [
+	"なぜなら、私たちは皆、頭を悩ませることなく巨大な構造物を構築したいからです。"
+]
+			id: "142576A350BF2C99"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "4E896F3346C76FC6"
+				item: "buildinggadgets:construction_paste_container_creative"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["79B1FCD79D650A18"]
+			description: [
+	"&o&eこれらすべての機械的なエッセンスとクリスタルをうまく使いこなしましたね。&r"
+]
+			hide: true
+			hide_details_until_startable: true
+			id: "1B28CB0B4B18DAF8"
+			tasks: [{
+				id: "29936159817D63B2"
+				title: "それだけですか？"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B28CB0B4B18DAF8"]
+			description: [
+				"&o&e私は...&r"
+				""
+				"&o&e...満足しています。&r"
+				""
+				"&o&e私は...&r"
+			]
+			hide: true
+			id: "169F7212815B284E"
+			tasks: [{
+				id: "42F6EE426BE76971"
+				title: "それだけですか？"
+				type: "checkmark"
+			}]
+			title: "さらにありますか?"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["169F7212815B284E"]
+			description: [
+				"&e&o…悠久の眠りから、生き返った！&r"
+				"{image:ftbquests:textures/gui/cod.png width:100 height:100 align:1}"
+				""
+				"続く…"
+			]
+			hide: true
+			id: "068290D81B90B8A9"
+			tasks: [{
+				id: "394A3E22B725B19B"
+				title: "私は何をしたのでしょうか?"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+	]
+	title: "第5章：エンドゲーム"
+}

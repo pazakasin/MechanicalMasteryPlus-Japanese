@@ -1,0 +1,23 @@
+{
+  "key.categories.raised": "上げられた",
+  "key.raised.options": "オープンレイズドオプション",
+  "commands.raised.config.reload": "発生した構成が再読み込みされました",
+  "commands.raised.config.reset": "設定をデフォルトにリセットしました",
+  "commands.raised.value.hud.query": "HUDの高さは現在%dに設定されています",
+  "commands.raised.value.hud.set": "HUDの高さは次のように設定されました: %d",
+  "commands.raised.value.chat.query": "チャットの高さは現在 %d に設定されています",
+  "commands.raised.value.chat.set": "チャットの高さは次のように設定されました: %d",
+  "commands.raised.toggle.support.query": "拡張MODサポートは現在%dに設定されています",
+  "commands.raised.toggle.support.set": "拡張MODサポートは現在%dに設定されています",
+  "commands.raised.toggle.sync.query": "HUD/チャット同期は現在次のように設定されています: %d",
+  "commands.raised.toggle.sync.set": "HUD/チャット同期は現在%dに設定されています",
+  "options.raised.title": "引き上げられたオプション",
+  "options.raised.hud": "HUD",
+  "options.raised.hud.tooltip": "HUDの高さを制御します。\n最大値は現在のスケールされた画面の高さの半分です。",
+  "options.raised.chat": "チャット",
+  "options.raised.chat.tooltip": "チャットの高さを制御します。\n最大値は、現在のスケールされた画面の高さの半分です。",
+  "options.raised.support": "サポート",
+  "options.raised.support.tooltip": "拡張MODサポートを有効にします。\nバニラHUD要素に関連付けられていないMOD要素のサポートを追加します。",
+  "options.raised.sync": "同期",
+  "options.raised.sync.tooltip": "HUD/チャットの同期を有効にします。\nチャットの高さをHUDの高さに同期します。"
+}

@@ -1,0 +1,10 @@
+{
+	id: "163D7437BC5B276B"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "kubejs:press_rod_die" }
+		{ item: "thermal:press_gear_die" }
+	]
+	title: "プレス金型"
+}

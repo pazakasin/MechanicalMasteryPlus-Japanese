@@ -1,0 +1,8 @@
+{
+  "item.shrink.mob_bottle": "ガラス瓶",
+  "item.shrink.shrink_ray": "シュリンクレイ",
+  "item.shrink.shrinking_device": "個人用縮小装置",
+  "itemGroup.shrink": "縮む",
+  "key.shrink.category": "縮む",
+  "key.shrink.shrink": "縮小を切り替える"
+}

@@ -1,0 +1,10 @@
+{
+  "itemGroup.creativecrafter": "クリエイティブクラフター",
+  "tooltip.creativecrafter.hold_shift": "詳細については左Shiftキーを押したままにしてください",
+  "tooltip.creativecrafter.slots": "スロット: 108",
+  "tooltip.creativecrafter.rfconsume": "消費量:",
+  "gui.creativecrafter.creative_crafter": "クリエイティブクラフター",
+  "block.creativecrafter.creative_crafter": "クリエイティブクラフター",
+  "advancements.creativecrafter.creative_crafter": "クリエイティブクラフター",
+  "advancements.creativecrafter.creative_crafter.description": "すぐに作成！"
+}

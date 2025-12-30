@@ -1,0 +1,10 @@
+{
+  "item.craftingcraft.inventory_crafting": "インベントリ作成",
+  "item.craftingcraft.portable_crafting": "ポータブルクラフト",
+  "container.craftingcraft.portable_crafting": "ポータブルクラフト",
+  "container.craftingcraft.inventory_crafting": "インベントリ作成",
+  "key.categories.craftingcraft": "クラフトクラフト",
+  "key.craftingcraft.portable_crafting": "ポータブルクラフトを開く",
+  "key.craftingcraft.back_to_inventory": "在庫に戻る",
+  "itemGroup.craftingcraft.craftingcraft": "クラフトクラフト"
+}

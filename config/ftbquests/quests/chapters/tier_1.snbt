@@ -1,0 +1,728 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_1"
+	group: "2D94E5A1412E2495"
+	hide_quest_details_until_startable: true
+	icon: "kubejs:cube1"
+	id: "302898E288734A9B"
+	images: [{
+		click: "https://www.curseforge.com/minecraft/mc-mods/thermal-foundation"
+		corner: false
+		dev: false
+		height: 2.0d
+		hover: ["visit https://www.curseforge.com/minecraft/mc-mods/thermal-foundation"]
+		image: "thermal:block/machines/machine_pulverizer_active"
+		rotation: 0.0d
+		width: 2.0d
+		x: -8.5d
+		y: -0.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2B65C5DE4AA944BA"]
+			description: [
+				"粉砕機を使えば、鉱石の加工率を高め、基本的な機械エッセンスの作成に役立ちます。"
+				""
+				"また、砂利や丸石から砂を得ることもできます。"
+			]
+			hide: false
+			icon: "thermal:machine_pulverizer"
+			id: "13AA6AFAF9C8DD0B"
+			rewards: [
+				{
+					count: 16
+					id: "4FF77AB5FCDB74C6"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "40E9C33F73AFD437"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+			]
+			subtitle: "ついに、まともな鉱石処理ができました!"
+			tasks: [
+				{
+					id: "36592AE3FE51D5B9"
+					item: "thermal:machine_pulverizer"
+					type: "item"
+				}
+				{
+					id: "762E9D8833D30C63"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					id: "3F7CEF738612B5F7"
+					item: "minecraft:sand"
+					type: "item"
+				}
+			]
+			title: "粉砕機"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["547050DB11C5FFB7"]
+			description: [
+	"マルチサーボプレスを使えば、エンジニアのハンマーの動作に加え、アイテムの耐久性を損なうことなく、効率を少し高めながら、より多くの作業を自動化できます。プレートなども作成できます！"
+]
+			hide: false
+			id: "54983CC37DD93E7A"
+			rewards: [
+				{
+					id: "0077B72A897EB181"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "02283396E036A872"
+					item: "thermal:machine_press"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32825235F7A53270"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["54983CC37DD93E7A"]
+			description: [
+				"マルチサーボプレスの下部スロットに特殊なダイを配置することで、プレートの代わりにギアを作成するなど、機能を変更できます。"
+				""
+				"また、インゴットからロッドを作成できるカスタムロッドダイもあります。"
+			]
+			hide: false
+			id: "2746A3F7A98C2134"
+			rewards: [
+				{
+					id: "5F49998A6AFA70CB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E3940EC1BF5D8FE"
+					table_id: 1602564825145878379L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "546578FF1EE9CECD"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:press_gear_die"
+							}
+							{
+								Count: 1b
+								id: "kubejs:press_rod_die"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "プレス金型"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["387D9ECF1CD0B4F8"]
+			description: [
+				"「&o素晴らしい！このシンプルな部品を使って、何か…私の将来に欠かせないものを作れるんだ&r」"
+				""
+				"ギアとロッドを組み合わせることで、機械のエッセンスの最初のものを作ることができました！"
+				""
+				"機械結晶の価値は部品の合計よりも高いことにすぐに気づくでしょう。ですから、クエストを進めるにはプロセスを自動化する必要があるかもしれません。"
+			]
+			hide: false
+			id: "7A0CB1037E6BE4D7"
+			rewards: [{
+				count: 16
+				id: "23176832183B31BF"
+				item: "kubejs:cube1_packaged"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "愛は人生の本質である"
+			tasks: [
+				{
+					id: "0DA904B48F32E904"
+					item: "kubejs:cube1"
+					type: "item"
+				}
+				{
+					id: "2806B1586B29E196"
+					item: "kubejs:cube1_packaged"
+					type: "item"
+				}
+			]
+			title: "Amor est vitae essentia"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["595F27B933ECC168"]
+			description: [
+	"レッドストーン炉では、燃料ではなく RF を消費することを除いて、通常の炉と同じように物を精錬できます。"
+]
+			hide: false
+			id: "2B65C5DE4AA944BA"
+			rewards: [
+				{
+					id: "0F55EF2A479BC037"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "68047720F3FFCAAD"
+					item: "thermal:machine_furnace"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "082AE7EADA5E2A06"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7A0CB1037E6BE4D7"]
+			description: [
+				"AdminShopの購入者ブロックと販売者ブロックを使えば、選択したアイテムを自動的に売買できます。"
+				""
+				"これらを使えば、機械エッセンスとクリスタルの生産を完全に自動化できます。"
+			]
+			hide: false
+			id: "4AB3B5469D68C46D"
+			optional: true
+			rewards: [
+				{
+					id: "2C69027CF205BC78"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6C9F3D8DEDBF1DC9"
+					item: "adminshop:buyer_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4AFCCAA14047AEF0"
+					item: "adminshop:buyer_1"
+					type: "item"
+				}
+				{
+					id: "18D18542692D423D"
+					item: "adminshop:seller"
+					type: "item"
+				}
+			]
+			title: "トレーディング101"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2E308530A5C47F6E"
+				"4E4618EE8D6D07B9"
+				"73FA28F897740068"
+			]
+			description: [
+	"シーケンシャルファブリケーターを使用すると、クラフトを自動化できます。レシピを選択して材料を挿入するだけで、出力が作成されます。"
+]
+			hide: false
+			id: "387D9ECF1CD0B4F8"
+			rewards: [{
+				id: "56DE53737C24A26C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "29D6E0B76CB72710"
+				item: "thermal:machine_crafter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["13AA6AFAF9C8DD0B"]
+			description: [
+				"誘導製錬所を設置する前に、原料鉱石を粉砕し、粉末を混ぜ合わせることで合金を入手できます。"
+				"その後、合金粉末を爆破してインゴットを入手できます。"
+			]
+			hide: false
+			hide_details_until_startable: false
+			id: "547050DB11C5FFB7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69C2B59340725641"
+				table_id: 730431930992961248L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 4L
+				id: "4CA78D9953A59B84"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:constantan_dust"
+							}
+							{
+								Count: 1b
+								id: "thermal:invar_dust"
+							}
+							{
+								Count: 1b
+								id: "thermal:bronze_dust"
+							}
+						]
+					}
+				}
+				title: "合金粉塵"
+				type: "item"
+			}]
+			title: "合金"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2746A3F7A98C2134"]
+			description: [
+	""
+]
+			id: "73FA28F897740068"
+			rewards: [{
+				count: 2
+				id: "7B9D8ADC7677C8CE"
+				item: "createaddition:copper_rod"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "1F1757468A1CE472"
+				item: "createaddition:copper_rod"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2746A3F7A98C2134"]
+			description: [
+	""
+]
+			id: "2E308530A5C47F6E"
+			rewards: [{
+				id: "65963C80FE787126"
+				item: "thermal:iron_gear"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D5ABE90519268F2"
+				item: "thermal:iron_gear"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2746A3F7A98C2134"]
+			description: [
+	"積分コンポーネントを熱機械に挿入して、基本値を増やすことができます。"
+]
+			id: "4E4618EE8D6D07B9"
+			rewards: [{
+				id: "478FAAE47D905ABC"
+				item: "thermal:gold_gear"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D5FA210A20EEDE3"
+				item: "thermal:gold_gear"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7899043495724E2A"]
+			description: [
+	"「ああ、赤いパイプ、ありがとう！大切に使わせていただきます！」"
+]
+			hide: false
+			hide_details_until_startable: false
+			id: "595F27B933ECC168"
+			rewards: [{
+				id: "52C82ECD38D30CD7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "59807C43371F532B"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			title: "動的統合"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7A0CB1037E6BE4D7"]
+			description: [
+	"&lサーマルシリーズmod&r"
+]
+			hide: false
+			id: "6A69E64613966190"
+			optional: true
+			rewards: [{
+				id: "2F04E8C4EF50CF1C"
+				item: "thermal:upgrade_augment_1"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4C613ACC70C3D281"
+				item: "thermal:upgrade_augment_1"
+				type: "item"
+			}]
+			title: "熱機械はもっと効率的になるのでしょうか?"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["595F27B933ECC168"]
+			description: [
+				"補助サボテンは、不要な余分な二次出力を除去します。"
+				""
+				"「過剰」の意味がわからない場合は、次のクエストをお読みください。"
+				""
+				"Don't lose hope, though! Here's some hints/options:"
+				""
+				"- rush chapters to get access to energy cables from one of the major tech mods"
+				""
+				"- obtain early glowstone from dirt based blocks"
+				""
+				"- use Energy Exporters, Importers and Interfaces from Integrated Dynamics"
+			]
+			icon: "pipez:energy_pipe"
+			id: "57FC68E7348A690A"
+			optional: true
+			rewards: [{
+				count: 12
+				id: "0F39712859BE018C"
+				item: "pipez:energy_pipe"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1849115F74704104"
+				title: "エネルギー輸送をお願いします。"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["09BAD2F7D01D16FD"]
+			description: [
+				"一部の熱機械には複数の出力スロットがあります。例えば、粉砕機には4つの出力「バッファ」があります。補助サボテンは、空いている出力スロットがないか、主出力用のスペースしかない場合にのみ、余分な副出力を破棄します。"
+				""
+				"違いは何でしょうか？例えば、砂利を粉砕すると、砂（主出力）とフリント（副出力）が生成される可能性があります。"
+				""
+				"拡張がない場合、砂を入れるだけのスペースしかないのに、粉砕機が砂とフリントをそれぞれ1つずつ出力したい場合、内容物をすべて出力するためのスペースがないため、粉砕機は動作を停止します。"
+				""
+				"しかし、拡張がある場合、粉砕機が砂とフリントを出力したいのに砂を入れるだけのスペースしかない場合、フリントを破棄して動作を続行します。"
+				""
+				"自動化においては、余剰分は無効化されるため、これはあまり問題になりません。つまり、"
+				""
+				"要約：機械は二次出力を生成しますが、それらが満杯になっても停止しません。唯一の違いは、機械から抽出する際にフィルターをかける必要があることです。"
+			]
+			id: "7899043495724E2A"
+			rewards: [{
+				id: "7DE4CED48E738184"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "thermal:guidebook"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "225223E64D4598DC"
+				item: {
+					Count: 1b
+					id: "thermal:wrench"
+					tag: { }
+				}
+				title: "サーマルファンデーション"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7C6DA4DDF8FF0360"]
+			description: [
+	"周期的なアップグレードにより、熱機械は出力アイテムを入力スロットに自動的に配置できるようになります。"
+]
+			id: "22AE3DD6943A96AB"
+			optional: true
+			rewards: [{
+				id: "6784479CDDB038A8"
+				item: "thermal:machine_null_augment"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "744D96677974079D"
+				item: "thermal:machine_null_augment"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["22AE3DD6943A96AB"]
+			description: [
+	"植物性インソレーターは自動的に作物を栽培することができ、周期的なアップグレードを使用することで、出力を入力（作物の種子）として再利用することができます。"
+]
+			id: "619D1281059B0F35"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "43662522692BBEDD"
+				item: "thermal:machine_null_augment"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "はい、そうです。理解できない場合は、この説明を読んでください。"
+			tasks: [{
+				id: "646F62138C710376"
+				title: "「サボテン増強は効かない！！！！」"
+				type: "checkmark"
+			}]
+			title: "「サボテン増強は効かない！！！！」"
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["595F27B933ECC168"]
+			id: "1EA6159D66704C53"
+			optional: true
+			rewards: [{
+				id: "49A3232A03FFABDB"
+				item: "thermal:dynamo_output_augment"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5310A9CC1EE38392"
+				item: "thermal:dynamo_output_augment"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C6DA4DDF8FF0360"]
+			description: [
+				"Thermal では、粉砕機に触媒を使用するオプションが提供されます。"
+				""
+				"各触媒には、主出力と補助出力、触媒使用の可能性、エネルギー消費量に対する異なる調整係数があります。"
+			]
+			id: "05A02748A9756DFC"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "2EC9A0B6C9F91A8F"
+				item: "thermal:machine_cycle_augment"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7A0CB1037E6BE4D7"]
+			description: [
+	"粉砕機と同様に、誘導溶解炉内で特定の「触媒」を使用することで、一次および二次生産量、エネルギー効率、その他を向上させることができます。詳しくはJEIをご覧ください。"
+]
+			id: "7C6DA4DDF8FF0360"
+			rewards: [{
+				count: 16
+				id: "2260968A4ED69210"
+				item: "thermal:phytogro"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44FF65C499BD2159"
+				item: "thermal:machine_insolator"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["13AA6AFAF9C8DD0B"]
+			description: [
+				"誘導溶解炉は、金属の配合を工夫することなく、非常に短時間で合金を作ることができます。"
+				""
+				"これは将来的に価値あるものとなるでしょう。"
+			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "22FF4FC891025F81"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "377B0DB5C6BE14DE"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "45FBEFB409EE59D6"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			title: "粉砕機触媒"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74C8E42F285DC4F6"]
+			description: [
+	"ショップでは、ニッケルやスズの原鉱石を購入して熱機械を作ることができます。"
+]
+			id: "1A1486F396BCEA3C"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "4F72F3FDA9A3B4E9"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1C51B69ECBD925F2"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			title: "誘導溶解炉触媒"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7A0CB1037E6BE4D7"]
+			description: [
+				"「ギャンブルをやめなきゃ、お金がない。どうしよう？」"
+				""
+				"えっ？お金を使い果たしてしまって、最初の機械結晶を作っても、先に進むのに十分な原鉱石が手に入らないの！？！"
+			]
+			id: "74C8E42F285DC4F6"
+			rewards: [{
+				id: "1ADFA4AA032E28FC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "19236D78C91C9E6C"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["595F27B933ECC168"]
+			description: [
+				"Using the Shop you can buy nickel and tin raw ores to craft Thermal Machines."
+				""
+				"You can also sell Mechanical Crystals to gain money."
+				""
+				"Don't worry about getting broke, you get enough starting money to craft a machine setup and make a profit."
+				""
+				"TIP: if you're really out of money you can craft a special trading permit allowing selling metal blocks to get you back on track."
+			]
+			id: "30AFF35D8B46E82B"
+			rewards: [{
+				id: "37D6B3FE7F4C71E7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0794BE0AE18C3ECF"
+				item: "adminshop:shop"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["30AFF35D8B46E82B"]
+			description: [
+				"\"I have to stop gambling, I'm broke, what am I gonna do?\""
+				""
+				"Excuse me? You spent all your money and can't craft your first Mechanical Crystal to get enough raw ores to proceed!!?!"
+				""
+				"There's a solution... craft a special trade permit to get some money back... It's not fast though..."
+			]
+			id: "185C525CF2B473D4"
+			rewards: [{
+				id: "627EAE8DB7E3691C"
+				item: "farmersdelight:honey_cookie"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53347A612197011C"
+				item: {
+					Count: 1b
+					id: "adminshop:permit"
+					tag: {
+						display: {
+							Lore: [
+								"[{\"text\":\"Buy: Nothing\",\"italic\":false}]"
+								"[{\"text\":\"Sell: Block of Iron\",\"italic\":false}]"
+								"[{\"text\":\"Sell: Block of Gold\",\"italic\":false}]"
+								"[{\"text\":\"Sell: Block of Copper\",\"italic\":false}]"
+							]
+							Name: "[{\"text\":\"[SPECIAL] I need money Trade Permit\",\"color\":\"magenta\",\"italic\":false}]"
+						}
+						key: 5
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+	]
+	title: "第1章 熱シリーズ"
+}

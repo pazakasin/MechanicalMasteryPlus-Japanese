@@ -1,0 +1,15 @@
+{
+  "block.hyperbox.hyperbox": "ハイパーボックス",
+  "block.hyperbox.hyperbox_preview": "ハイパーボックス",
+  "block.hyperbox.aperture": "絞り",
+  "menu.hyperbox": "ハイパーボックスディメンションを作成する",
+  "menu.hyperbox.edit_dimension": "ディメンションID",
+  "menu.hyperbox.edit_name": "ハイパーボックス名",
+  "menu.hyperbox.use_default_name_checkbox": "デフォルト名を使用する",
+  "menu.hyperbox.save_and_enter": "保存して入力",
+  "menu.hyperbox.save_and_exit": "保存して終了",
+  "menu.hyperbox.dimension_id_in_use": "ディメンションIDはすでに使用されています",
+  "menu.hyperbox.message.no_id": "ハイパーボックスディメンションの作成に失敗しました: ディメンション ID が欠落しているか空です",
+  "menu.hyperbox.message.invalid_id": "ハイパーボックスディメンションの作成に失敗しました: 場所のパスに [a-z0-9/._-] 以外の文字が含まれています: %s",
+  "menu.hyperbox.message.existing_id": "ハイパーボックスディメンションの作成に失敗しました: ディメンション ID が既に存在します: %s"
+}

@@ -1,0 +1,17 @@
+{
+  "servertabinfo.gui.mean": "平均",
+  "servertabinfo.gui.ms": "MS",
+  "servertabinfo.gui.not_installed": "サーバータブ情報がサーバーにインストールされていません",
+  "servertabinfo.gui.page": "%d ページ中 %d ページ",
+  "servertabinfo.gui.tps": "tps",
+  "servertabinfo.gui.unknown": "未知",
+  "servertabinfo.keys.category": "サーバータブ情報",
+  "servertabinfo.keys.show": "TPSリストを表示",
+  "servertabinfo.lostcities:lostcities": "失われた都市",
+  "servertabinfo.minecraft:overworld": "オーバーワールド",
+  "servertabinfo.minecraft:the_end": "終わり",
+  "servertabinfo.minecraft:the_nether": "ネザー",
+  "servertabinfo.msg.not_allowed": "tps情報を表示する権限がありません",
+  "servertabinfo.servertabinfo:overall": "全体",
+  "servertabinfo.twilightforest:twilight_forest": "夕暮れの森"
+}

@@ -1,0 +1,14 @@
+{
+  "debugify.name": "デバッグする",
+  "debugify.basic": "基本的な修正",
+  "debugify.gameplay": "ゲームプレイの修正",
+  "debugify.gameplay.warning": "警告: このカテゴリには不公平な利点となる可能性のある修正が含まれています。",
+  "debugify.gameplay.enable_in_multiplayer": "マルチプレイヤーで有効にする",
+  "debugify.error.conflict.single": "%s は %s と競合しています",
+  "debugify.error.conflict.multiple": "%s は mod と競合しています: %s",
+  "debugify.misc": "その他",
+  "debugify.misc.default_disabled": "デフォルトで無効",
+  "debugify.misc.default_disabled.description": "デフォルトでは、新しいバグ修正は有効ではなく無効になります。",
+  "debugify.env.client": "クライアント",
+  "debugify.env.server": "サーバ"
+}

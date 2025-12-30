@@ -1,0 +1,125 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overview"
+	group: "56617BF3F24DD586"
+	icon: "minecraft:totem_of_undying"
+	id: "77FF66ED47CBD889"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&cMechanical Mastery Plus&rは、オリジナルのMechanical Mastery（上記クエスト参照）のフォークで、同様の進行システムを備えています。"
+				""
+				"進行を維持するために、あらゆるものを自動化することに重点を置いています。"
+				""
+				"ProjectEとEMCはなくなりました…しかし、AdminShopは登場します！"
+				""
+				"各章では1つ以上の新しいテクノロジーMODが導入され、最終章でそれらをすべて組み合わせることができます。"
+				""
+				"パックを完成させるには、これらのメカニカルエッセンスを自動化する方法を習得し、できるだけ多くの$を獲得する必要があります。頑張ってください！"
+			]
+			icon: "kubejs:cube1"
+			id: "0A440BFFAD3F083E"
+			subtitle: "はじめにと説明"
+			tasks: [{
+				id: "3BB2FA8389857375"
+				title: "いらっしゃいませ！"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0A440BFFAD3F083E"]
+			description: [
+				"[\"最近、とてもユニークなMinecraft Modパックを見つけました。"
+				""
+				""
+				""
+				"\", {\"text\": \"Mechanical Mastery\", \"color\": \"gold\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://www.curseforge.com/minecraft/modpacks/mechanical-mastery\"}}]"
+				""
+				"私はいつもModパックを最後までプレイする前に飽きてしまうのですが、このModパックは最後まで夢中になりました（まあ、最後のクエストはクリアしていないので、本当はそうでもないのですが…）。"
+			]
+			id: "6574C2772D94CB68"
+			rewards: [{
+				id: "0AF389E33776D623"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "27D023D4D8CA9654"
+				title: "すべてを変えたパック"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0A440BFFAD3F083E"]
+			description: [
+				"{\"text\": \"Adminshop\", \"color\": \"red\", \"underlined\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://legacy.curseforge.com/minecraft/mc-mods/adminshop\"}, \"extra\": [{\"text\": \" is a powerful mod that allows both server administrator and modpack developers to add their own shop into Minecraft, where players can buy and sell items at fixed prices.\", \"color\": \"white\", \"underlined\": false}]}"
+				""
+				"このMODはカスタム「銀行口座」システムを採用しており、他のプレイヤーと共有アカウントを作成できるため、このMODを利用するサーバーやMODパック内でのCo-opプレイが可能になります。このMODは元々Vnatorによって1.12向けに開発されましたが、Ammoniumによって新しいバージョンにフォークされ、全面的に改良されました。"
+				""
+				"(&元のMOD説明より抜粋&r)"
+			]
+			id: "333AD01B70C4D1DC"
+			rewards: [{
+				id: "01856E23E926CF7C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4AB76C8E778E9FDA"
+				title: "管理者ショップ"
+				type: "checkmark"
+			}]
+			title: "AdminShopのオーバーホール"
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0A440BFFAD3F083E"]
+			description: ["{\"text\": \"Join our \", \"extra\": [{\"text\": \"Discord\", \"underlined\": true, \"color\": \"dark_blue\", \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://discord.gg/3bYHjXY4\"}}, {\"text\": \" and discuss about the ongoing development of the original pack, my fork and the future projects of our beloved Ammonium\", \"underlined\": false, \"color\": \"white\"}]}"]
+			id: "11218A6DB4F045CE"
+			rewards: [{
+				id: "7DF3F57E40C751A0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1E1255711CDF882A"
+				title: "Discord に参加しましょう!"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0A440BFFAD3F083E"]
+			description: [
+				"別名：鉱石処理の刷新"
+				""
+				"このパックでは、鉱石処理とは、あらゆるテクニカルMODを駆使して、原料鉱石からインゴットへの変換率を最大限に高めることを意味します。"
+				""
+				"{\"text\": \"Feel free to browse the \", \"extra\": [{\"text\": \"dedicated chapter\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"3CF702D957530570\"}}]}"
+			]
+			id: "5A7A38C8FA72C931"
+			rewards: [{
+				id: "5E5E003B5381311D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "37AB452D6692E19C"
+				title: "オブジェクト指向"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+	]
+	title: "トピック"
+}

@@ -1,0 +1,12 @@
+{
+  "_comment": "# 機能設定",
+  "config.commoncapabilities": "%s 構成",
+  "recipecomponent.minecraft.itemstack": "アイテム",
+  "recipecomponent.minecraft.fluidstack": "流体",
+  "recipecomponent.minecraft.energy": "エネルギー",
+  "capability.commoncapabilities.inventoryState": "在庫状態",
+  "capability.commoncapabilities.temperature": "温度",
+  "capability.commoncapabilities.worker": "ワーカー",
+  "capability.commoncapabilities.worldNameable": "名前をつけられる世界",
+  "capability.commoncapabilities.wrench": "レンチ"
+}

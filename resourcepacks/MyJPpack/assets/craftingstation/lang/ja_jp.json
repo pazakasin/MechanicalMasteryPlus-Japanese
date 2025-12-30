@@ -1,0 +1,7 @@
+{
+  "block.craftingstation.crafting_station": "クラフトステーション",
+  "block.craftingstation.crafting_station_slab": "クラフトステーションのスラブ",
+  "title.crafting_station": "クラフトステーション",
+  "text.crafting_station.error": "不正なレシピ %s が見つかりました。詳細はログを参照してください。",
+  "text.crafting_station.clear": "クリアなクラフトグリッド"
+}

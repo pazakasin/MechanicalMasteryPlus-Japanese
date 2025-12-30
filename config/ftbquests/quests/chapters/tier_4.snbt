@@ -1,0 +1,968 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_4"
+	group: "2D94E5A1412E2495"
+	hide_quest_details_until_startable: true
+	icon: "kubejs:cube4"
+	id: "38378A6F4FF9F098"
+	images: [{
+		click: "https://www.curseforge.com/minecraft/mc-mods/powah-rearchitected"
+		corner: false
+		dev: false
+		height: 2.0d
+		hover: ["visit https://www.curseforge.com/minecraft/mc-mods/powah-rearchitected"]
+		image: "powah:item/charged_snowball"
+		rotation: 0.0d
+		width: 2.0d
+		x: -10.5d
+		y: -2.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["47D8F95F5317A47D"]
+			description: [
+	"新しいティア、新しい素材。もうお分かりですよね？これらを手に入れるには、新しい許可証の作成をお忘れなく。"
+]
+			icon: "kubejs:cube3"
+			id: "4E81E76086558A19"
+			rewards: [{
+				id: "0876A86EE30EA0BC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6DC696B8987D5178"
+				title: "ティア4の材料"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["36E164D94BE0A6E3"]
+			description: [
+	"分留蒸留器は原油を軽油や重油などの使用可能な製品に加工することができます。"
+]
+			id: "6201AC6B5614B2EA"
+			rewards: [{
+				count: 2
+				id: "6C8A9ACDA95A5EB4"
+				item: "thermal:machine_refinery"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29A1C4C987D9ACC0"
+				item: "thermal:machine_refinery"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0F7EF0BDD2AE23CD"]
+			description: [
+	"精製燃料を得るための精製プロセスでは、副産物としてビチューメン、硫黄、タールも追加で得られるため、特に有用です。"
+]
+			id: "7943076114A42DFC"
+			rewards: [{
+				id: "5A90134AE0BB17CA"
+				item: "thermal:refined_fuel_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D2A9DE21E8A4EB6"
+				item: "thermal:refined_fuel_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4E81E76086558A19"]
+			description: [
+	"核分裂性燃料の生産ラインはJEIだけから理解するのは難しいかもしれませんが、このクエストでは核分裂性燃料を生産するために必要なすべての機械が紹介されています。必要な原料はウラン、硫黄、蛍石、そして水だけです。頑張ってください！"
+]
+			icon: "mekanism:radioactive_waste_barrel"
+			id: "3E8F024835BB58F7"
+			rewards: [{
+				id: "68F44F9925BE925D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "3C52E0B443C0D654"
+					item: "mekanism:isotopic_centrifuge"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "759EAF578A1E1A21"
+					item: "mekanism:chemical_oxidizer"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "3B9ED8F416DDDC77"
+					item: "mekanism:chemical_infuser"
+					type: "item"
+				}
+				{
+					id: "2E5991C74AB20581"
+					item: "mekanism:chemical_dissolution_chamber"
+					type: "item"
+				}
+				{
+					id: "374A668C81C85286"
+					item: "mekanism:enrichment_chamber"
+					type: "item"
+				}
+				{
+					id: "75BA3A1BB3DA4403"
+					item: "mekanism:rotary_condensentrator"
+					type: "item"
+				}
+				{
+					id: "38947FCE079E8D2C"
+					item: "mekanism:electrolytic_separator"
+					type: "item"
+				}
+			]
+			title: "核分裂性燃料の生産"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E8F024835BB58F7"]
+			description: [
+	"核分裂炉は、核分裂性燃料を燃焼させて大量の水を蒸気に変えることができる、大型のメカニズムの集合体です。どうやって作るのでしょうか？ よく分かりませんが、Google で検索するか、YouTube のチュートリアルで調べてみてください。ただし、原子炉は単独では発電しません。原子炉のメルトダウンにはご注意ください！ 核廃棄物を適切に管理し、原子炉に十分な冷却材（水）が常に供給されるようにしてください。"
+]
+			id: "2B2DAA2647444F4F"
+			rewards: [
+				{
+					count: 10
+					id: "539659B391A36962"
+					item: "mekanism:radioactive_waste_barrel"
+					type: "item"
+				}
+				{
+					id: "697B2186AB389257"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "hexagon"
+			subtitle: "!!! 必須、将来のクエストに必要"
+			tasks: [
+				{
+					id: "2775BE8442BC35A4"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "4AA0F34B63C1855E"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+				{
+					id: "57E18EB88364E4EE"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					id: "18081A49D91442C0"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+				{
+					id: "223923EE220F05D0"
+					item: "mekanismgenerators:control_rod_assembly"
+					type: "item"
+				}
+			]
+			title: "核分裂炉"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B2DAA2647444F4F"]
+			description: [
+	"もう一つの大型マルチブロックである蒸気タービンは、核分裂炉で発生した蒸気をすべて発電に利用し、それを冷却して水に戻して原子炉に供給します。注意：タービン内部の電力バッファがいっぱいになると、蒸気の冷却が停止します。原子炉の冷却材として蒸気の冷却に依存している場合は、大変な事態になる可能性があります。繰り返しになりますが、優れたタービンの作り方についてはチュートリアルを検索してください。"
+]
+			id: "593EEC1F5CA967D5"
+			rewards: [{
+				id: "4C494F95D2B34E5B"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "hexagon"
+			subtitle: "ついに大規模発電"
+			tasks: [
+				{
+					id: "5BE685BFAB4E0346"
+					item: "mekanismgenerators:turbine_casing"
+					type: "item"
+				}
+				{
+					id: "29F426A8F69DAE89"
+					item: "mekanismgenerators:turbine_valve"
+					type: "item"
+				}
+				{
+					id: "243CC1EE4C9BBF13"
+					item: "mekanismgenerators:turbine_vent"
+					type: "item"
+				}
+				{
+					id: "4869929171368DA3"
+					item: "mekanismgenerators:turbine_rotor"
+					type: "item"
+				}
+				{
+					id: "59E8C6F9EC135A13"
+					item: "mekanismgenerators:turbine_blade"
+					type: "item"
+				}
+				{
+					id: "1589118E7696970F"
+					item: "mekanismgenerators:saturating_condenser"
+					type: "item"
+				}
+				{
+					id: "3F7FFBB3EF3FAA9A"
+					item: "mekanismgenerators:rotational_complex"
+					type: "item"
+				}
+				{
+					id: "269D877736C64988"
+					item: "mekanismgenerators:electromagnetic_coil"
+					type: "item"
+				}
+				{
+					id: "317485D4DF5A2E28"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+			]
+			title: "蒸気タービン"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0850DE0A32947FA8"]
+			description: [
+	"ブレイズケーキのベースを作成し、注ぎ口を使用して溶岩を充填してブレイズケーキを作成します。このブレイズケーキをブレイズバーナーに供給して過熱することができ、一部の混合レシピに必要となります。"
+]
+			id: "13C6D580E33815D5"
+			rewards: [{
+				id: "7862B771EE891969"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7E5989D620BABE65"
+					item: "create:blaze_cake_base"
+					type: "item"
+				}
+				{
+					id: "3C1D9AE7CAF566F9"
+					item: "create:blaze_cake"
+					type: "item"
+				}
+			]
+			title: "ブレイズケーキ"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E81E76086558A19"]
+			description: [
+	"ネザーラックを砕いて燃え殻粉を入手します。"
+]
+			id: "0850DE0A32947FA8"
+			rewards: [{
+				count: 16
+				id: "460D3015EAE7E617"
+				item: "create:cinder_flour"
+				type: "item"
+			}]
+			tasks: [{
+				id: "446EFFEEECAB24BA"
+				item: "create:cinder_flour"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"13C6D580E33815D5"
+				"0EE1192BF90562ED"
+				"7943076114A42DFC"
+				"24B023237C9D1908"
+				"425E1C7023D29E31"
+			]
+			description: [
+				"先ほどと同じように、必要な材料をすべて過熱したミキサーで混ぜ合わせます…えっ、まだ終わってない？何か活性化させる必要があるようです…"
+				""
+				"少し色が薄いような…少し色がついているような？"
+			]
+			id: "2FE7FB850DB23DC1"
+			rewards: [{
+				id: "6B9633FAE10F4C2D"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "74FB67C7495D4ACD"
+				item: "kubejs:cube4_inert"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1A67C9B9ABB4E969"
+				"3BA40F043222AB03"
+			]
+			description: [
+	"Mekanism の最後から 2 番目の階層型サーキット。"
+]
+			id: "0EE1192BF90562ED"
+			rewards: [{
+				id: "0CC8C68728326987"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "630EFAA39D279506"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2FE7FB850DB23DC1"]
+			description: [
+	"結局のところ、古き良き塗装により、機械の本質がついにその輝きを最大限に発揮するのです。"
+]
+			id: "157D4C0E9C7A0928"
+			rewards: [{
+				count: 2
+				id: "69AEDCC7DE7818F5"
+				item: "kubejs:cube4"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "121DC9C8822A6410"
+					item: "kubejs:cube4"
+					type: "item"
+				}
+				{
+					id: "2890FB8CDF96DD2C"
+					item: "mekanism:painting_machine"
+					type: "item"
+				}
+				{
+					id: "5234A46EDA14DB4C"
+					item: "mekanism:pigment_mixer"
+					type: "item"
+				}
+				{
+					id: "0D5B87826C461B93"
+					item: "mekanism:pigment_extractor"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["157D4C0E9C7A0928"]
+			description: [
+				"「もう水はたくさん流れたけど、もっと欲しい！」"
+				""
+				"このパックで水を無限に手に入れる方法はもう全部わかったでしょう？"
+				""
+				"えっと…まだもっと欲しい？ いいですよ、シンクはありますから、もう文句は言いませんよ ;)"
+			]
+			id: "174E355F55DE59F8"
+			optional: true
+			rewards: [{
+				id: "7E98BD3D44C5C7BC"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "水源"
+			tasks: [{
+				id: "6D8D0E6A16383E3D"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			title: "フォンテス・アクアラム"
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4E81E76086558A19"]
+			description: [
+				"Powah! は、有線・無線を問わずエネルギーを生成、蓄積、伝送できる、美しくパワフルなMODです。"
+				""
+				"(Flux Network はどこにあるの？)"
+			]
+			icon: "powah:dielectric_paste"
+			id: "65CCE43B4B2AEC6F"
+			rewards: [
+				{
+					id: "04398F7C1F4654C6"
+					item: "powah:energy_cell_basic"
+					type: "item"
+				}
+				{
+					id: "647EC3EC7F274234"
+					item: "powah:magmator_basic"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "14B8EFCA2C7D530D"
+					item: "powah:energy_cable_basic"
+					type: "item"
+				}
+				{
+					id: "514E3B6FFD9DDBC7"
+					item: "powah:book"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 24L
+					id: "264D55BB9949E0D6"
+					item: "powah:dielectric_paste"
+					type: "item"
+				}
+				{
+					id: "3FAD5EA79F0BAF90"
+					item: {
+						Count: 1b
+						id: "powah:wrench"
+						tag: {
+							PowahWrenchNBT: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Powah は OPawah です!"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F6C7F4F8FAC880A"]
+			description: [
+				"フラックスブロックを使えばフラックスダストを手動で作成できますが、ThermalとMekanismを使えば自動化できるのでご安心ください。"
+				""
+				"フラックスネットワークは、入力（フラックスプラグ）から出力（フラックスポイント）へ、ワイヤレスでエネルギーを転送できる、最も強力なエネルギー転送モジュールです。転送量に制限はありません。"
+			]
+			id: "5328C8928A16E3CB"
+			rewards: [
+				{
+					id: "1A9000D39CDD5CFF"
+					item: "fluxnetworks:flux_controller"
+					type: "item"
+				}
+				{
+					id: "6FE977D0BFA76E19"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2E12FB4D8D2EAAD0"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+				{
+					id: "3E52C674A60D7304"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+			]
+			title: "フラックスネットワーク"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"482E9CE8C89D097B"
+				"593EEC1F5CA967D5"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+	"Flux Network のロックを解除するには、FE を構築し、FTB クエスト タスク画面 (石や本から作成可能) から送信する必要があります。"
+]
+			id: "2F6C7F4F8FAC880A"
+			rewards: [{
+				id: "3AEA2ADDDB7FF25E"
+				item: "fluxnetworks:flux_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45A0271B5CC31478"
+				max_input: 20000L
+				type: "forge_energy"
+				value: 100000000L
+			}]
+			title: "もっとエネルギーが必要です!"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65CCE43B4B2AEC6F"]
+			description: [
+				"Powahを進めるには、エネルギー化メカニズムを用いてより高度なパーツを作成する必要があります。"
+				""
+				"他のすべてのものと同様に、精製ストレージ、モジュラールーター、または応用エネルギーシステムを使用してプロセスを自動化できるようになるまで、手作業で作成することになります。"
+			]
+			id: "1CB1D2ADD015C590"
+			rewards: [{
+				count: 8
+				id: "79DA233EAF6B3CCC"
+				item: "powah:uraninite"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6B8B0526234ACA58"
+					item: "powah:energizing_orb"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4F3318976A149B52"
+					item: "powah:energizing_rod_hardened"
+					type: "item"
+				}
+			]
+			title: "上級パワ！"
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1CB1D2ADD015C590"]
+			description: [
+				"Powah! リアクターは強力で、構築と管理が簡単です。"
+				""
+				"Applied Energistics や Refined Storage を少し活用すれば、コンポーネントを自動化して最大レベルのリアクターを簡単に構築できます。"
+				""
+				"マルチブロックを作成するには、必要なレベルのリアクターブロックを36個用意し、3x4の空きスペースにリアクターブロックを1つ配置する必要があります。"
+				"これでリアクターが自動的に構築されます。"
+				""
+				""
+				"{image:powah:textures/gui/book/images/reactor.png width:200 height:100 align:1}"
+			]
+			id: "482E9CE8C89D097B"
+			rewards: [{
+				id: "3B98175A64C5484E"
+				item: "ftbquests:screen_1"
+				type: "item"
+			}]
+			tasks: [{
+				count: 36L
+				id: "78143023467B41FF"
+				item: "powah:reactor_spirited"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4E81E76086558A19"]
+			description: [
+				"より高度な回路を得るには、コンバイナーを使用する必要があります。"
+				""
+				"ヒント：適切なTierのアップグレーダーを使用すると、マシンを工場に改造できます。"
+			]
+			id: "3BA40F043222AB03"
+			rewards: [{
+				id: "647612FE82C8599D"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06CE6D0AAB691463"
+				item: "mekanism:combiner"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6201AC6B5614B2EA"]
+			id: "0F7EF0BDD2AE23CD"
+			rewards: [
+				{
+					id: "4F09C39BE2CD124F"
+					item: "thermal:light_oil_bucket"
+					type: "item"
+				}
+				{
+					id: "4661696206E482B0"
+					item: "thermal:heavy_oil_bucket"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "29EED4A5A8B64070"
+					item: "thermal:heavy_oil_bucket"
+					type: "item"
+				}
+				{
+					id: "13F9EEA2C8372698"
+					item: "thermal:light_oil_bucket"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"1B885B1F413015D4"
+				"39F9DFDFD50063C5"
+				"1BA45133DB917C98"
+			]
+			description: [
+				"「やった！最後の機械結晶を手に入れた！これで神になれる！」"
+				""
+				"よくやった！さあ、エッセンスを全部大量生産して、強力な創造アイテムを作りましょう。"
+				"もちろん、それも目標の一つですが、その無料リソースを使って、とんでもない大金持ちになって素晴らしい装置を作ることもできますよ！"
+			]
+			id: "4B95E003C81117FC"
+			rewards: [{
+				count: 2
+				id: "13B0397C6C896F68"
+				item: "kubejs:cube4_packaged"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "1CC445062EDCC764"
+					item: "kubejs:cube4_packaged"
+					type: "item"
+				}
+				{
+					id: "64381A2A61CBBAAA"
+					item: "mekanism:pressurized_reaction_chamber"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E81E76086558A19"]
+			description: [
+	"熱遠心分離機を使用すると、瀝青質砂から原油を得ることができます...または、原油を直接購入することもできます..."
+]
+			id: "36E164D94BE0A6E3"
+			rewards: [{
+				id: "685319FEB19CE7A9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "240F4B0C2E05DFFD"
+					item: "thermal:machine_centrifuge"
+					type: "item"
+				}
+				{
+					id: "66A7D7C638195EBF"
+					item: "thermal:crude_oil_bucket"
+					type: "item"
+				}
+			]
+			title: "石油を買うべきか、買わないべきか？"
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["157D4C0E9C7A0928"]
+			description: [
+				"先に進むには、上級エッセンスを粉砕する必要があります。"
+				""
+				"エッセンス1つにつき4個入手するには「粉砕ホイールを作成」を使用するか、比率を半分にするには「メカニズムクラッシャー」を使用します（ただし、工場は使用できます）。"
+			]
+			id: "1BA45133DB917C98"
+			rewards: [{
+				id: "7CBC4E404DC77C45"
+				item: "kubejs:cube4_dust"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0D03738A93A386DE"
+					item: "create:crushing_wheel"
+					type: "item"
+				}
+				{
+					id: "78E5F328B540430F"
+					item: "mekanism:crusher"
+					type: "item"
+				}
+				{
+					id: "1D53B37178CE402C"
+					item: "kubejs:cube4_dust"
+					type: "item"
+				}
+			]
+			title: "エッセンスを粉々に砕く"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0EFF3C51AF78C4B8"]
+			id: "1B885B1F413015D4"
+			rewards: [{
+				id: "0BB8D34112CDBC3E"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "6271A97CB4A050F2"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			title: "機械ガスの活性化"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1BA45133DB917C98"]
+			id: "0EFF3C51AF78C4B8"
+			rewards: [{
+				id: "1E5C4EF6B0596EC9"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "168C3D2F2AB2418F"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			title: "粉塵を不活性ガスに酸化する"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3E8F024835BB58F7"]
+			description: [
+	"精製室で核分裂性燃料と蛍石の粉末を組み合わせると、次のレベルの機械エッセンスを作成するのに役立つ核分裂性燃料ペレットを入手できます。"
+]
+			id: "24B023237C9D1908"
+			rewards: [{
+				id: "6FB13B2278D8F292"
+				item: "kubejs:fission_pellet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "437F7768B4488B76"
+				item: "kubejs:fission_pellet"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E40BDE1846E9542"]
+			description: [
+				"「4つ目の機械エッセンスが足りない…どうしても手に入れたい！」"
+				""
+				"最後の機械エッセンスの第一歩を作るために必要なのは…モブのエッセンス！"
+			]
+			id: "425E1C7023D29E31"
+			rewards: [{
+				count: 4
+				id: "543148B6BB056FB2"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "再帰的"
+			tasks: [
+				{
+					id: "1CFE546D4C0316AE"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					id: "6E63ADA7310990F0"
+					item: "thermal:machine_bottler"
+					type: "item"
+				}
+			]
+			title: "本質は本質である"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E81E76086558A19"]
+			description: [
+				"エンチャントボトルの作成には、あらゆる種類の液体経験値を使用できます。"
+				""
+				"液体経験値は以下の方法で入手できます。"
+				""
+				"- Create の経験値ナゲット"
+				""
+				"- Thermal の知識エッセンス（Insightful Condenser、Insightful Crystal、Knowledge Concentrator Augmented Machines から入手）"
+				""
+				"- Industrial Foregoing のエッセンス（Mob Crusher から入手）"
+				""
+				"- 経験値オベリスクのコグニティウム（蓄積経験値から入手）"
+				""
+				"- Mob Grinding Utils の液体経験値"
+			]
+			id: "7E40BDE1846E9542"
+			min_required_tasks: 1
+			rewards: [{
+				id: "203B290668E41257"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [
+				{
+					id: "7C710E111CB2FE3C"
+					item: "industrialforegoing:essence_bucket"
+					type: "item"
+				}
+				{
+					id: "1D5A53819DC918C5"
+					item: "thermal:xp_storage_augment"
+					type: "item"
+				}
+				{
+					id: "1533024E99E04171"
+					item: "mob_grinding_utils:fluid_xp_bucket"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1093D29FC8DA0441"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "3C3A327AA2C5D7DF"
+					item: "experienceobelisk:cognitium_bucket"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E81E76086558A19"]
+			id: "59F5B766F6827461"
+			rewards: [{
+				id: "3FCE3A682E07A0E4"
+				item: "kubejs:cube3"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5071C9F98CC67555"
+				item: {
+					Count: 1b
+					id: "adminshop:permit"
+					tag: {
+						display: {
+							Lore: [
+								"[{\"text\":\"Buy: Emerald Ore\",\"italic\":false}]"
+								"[{\"text\":\"Buy: Chorus Flower\",\"italic\":false}]"
+								"[{\"text\":\"Buy: Powah Resources\",\"italic\":false}]"
+								"[{\"text\":\"Buy: Nuclear ores\",\"italic\":false}]"
+								"[{\"text\":\"Buy: Mekanism Resources\",\"italic\":false}]"
+								"[{\"text\":\"Buy: Start a village!\",\"italic\":false}]"
+								"[{\"text\":\"Buy: Get passive mobs!\",\"italic\":false}]"
+								"[{\"text\":\"Sell: Advanced Mechanical Crystal\",\"italic\":false}]"
+								"[{\"text\":\"Sell: Liquid Pink Slime\",\"italic\":false}]"
+								"[{\"text\":\"Sell: Liquid Meat\",\"italic\":false}]"
+							]
+							Name: "[{\"text\":\"[T3] Trade Permit\",\"color\":\"magenta\",\"italic\":false}]"
+						}
+						key: 3
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7DD8F81366CCDE0E"]
+			id: "39F9DFDFD50063C5"
+			rewards: [{
+				id: "612B1D58CC44AA29"
+				item: "integrateddynamics:bucket_liquid_chorus"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "20871FD6D6A700E6"
+					item: "integrateddynamics:mechanical_squeezer"
+					type: "item"
+				}
+				{
+					id: "7F07B164BF97E95A"
+					item: "integrateddynamics:bucket_liquid_chorus"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E81E76086558A19"]
+			description: [
+				"最後の機械結晶を作るための最後の材料の一つは、液体コーラスです。"
+				""
+				"液体コーラスは、プロトコーラスまたはコーラスフルーツから入手できます。"
+			]
+			hide_dependency_lines: true
+			id: "7DD8F81366CCDE0E"
+			rewards: [{
+				id: "565F0D85283DDC67"
+				item: "minecraft:popped_chorus_fruit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5531ADF8D5943CAF"
+					item: "integrateddynamics:proto_chorus"
+					type: "item"
+				}
+				{
+					id: "4969F8D2F64A2A09"
+					item: "minecraft:popped_chorus_fruit"
+					type: "item"
+				}
+			]
+			title: "コーラス！"
+			x: 2.5d
+			y: -1.0d
+		}
+	]
+	title: "第4章 高度なメカニズム"
+}

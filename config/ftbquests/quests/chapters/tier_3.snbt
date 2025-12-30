@@ -1,0 +1,1856 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_3"
+	group: "2D94E5A1412E2495"
+	hide_quest_details_until_startable: true
+	icon: "kubejs:cube3"
+	id: "680AAFF5D8F57095"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "mekanism:item/mekasuit_helmet_tint_layer"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			click: "https://www.curseforge.com/minecraft/mc-mods/mekanism"
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: ["visit https://www.curseforge.com/minecraft/mc-mods/mekanism"]
+			image: "mekanism:item/mekasuit_helmet"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5d
+			y: -4.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1C35B03170B0D544"]
+			dependency_requirement: "one_completed"
+			description: [
+				"メカニカルエッセンスの改良版を作ることができましたが、まだ改善の余地があると感じています。その方法を探ります。"
+				""
+				"第3章では、メカニズムに関するあらゆること、特に基本的なことについて解説します。"
+				""
+				"[\"\",{\"text\":\"ヒント: \",\"color\":\"gold\"},\"もしあなたの島がニワトリのスポーンを阻止するバイオームにある場合は、ニワトリのスポーンエッグを使ってパッシブモブファームを立ち上げることができます。それらを使って、\",{\"text\":\"[ モブグラインドユーティリティ ]\",\"color\":\"red\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"76598CFCD001E86D\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"クエストへ移動\"]}},\".\"]"
+				""
+				"卵とニワトリをすべて無駄にしてしまった場合は、ハウント生地をまとめて卵を手に入れることもできます。"
+			]
+			icon: "kubejs:cube2"
+			id: "550E4D68A98180F5"
+			rewards: [
+				{
+					id: "5EBD3561DC90F6E9"
+					item: {
+						Count: 1b
+						id: "mekanismtools:diamond_paxel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "622E80C1112F753C"
+					item: "minecraft:chicken_spawn_egg"
+					type: "item"
+				}
+			]
+			subtitle: "まだもっとパワーが必要です..."
+			tasks: [{
+				id: "7997589309CA5B5E"
+				item: "mekanism:configurator"
+				type: "item"
+			}]
+			title: "メカニズム"
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2C3D96AA3C9853ED"
+				"63562122843997F6"
+			]
+			description: [
+				"このMODパックでは、使用すると対応する実体を即座に召喚する特別な「エフィジー」を作成できます。"
+				""
+				"これは、アイテムを右クリックすることで手動で行うことも、クリックマシンを使って自動的に行うこともできます。"
+				""
+				"ただし、エフィジーの潜在能力を完全に発揮させるには、特定の液体を注入する必要があります。"
+			]
+			icon: "kubejs:dormant_effigy"
+			id: "1B6E93FE3C6D5966"
+			rewards: [{
+				count: 3
+				id: "1ABF09B5A1335E0F"
+				item: "kubejs:dormant_effigy"
+				type: "item"
+			}]
+			subtitle: "このModpackの最も「魔法」的なものは"
+			tasks: [{
+				id: "1153105AEF332E96"
+				item: "kubejs:dormant_effigy"
+				type: "item"
+			}]
+			title: "人形を使った召喚"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["131EF687B47D577F"]
+			description: [
+				"休眠中の彫像を目覚めさせるには、サーマルマグマクルーシブルから特定の液化素材を注入する必要があります。"
+				""
+				"&6Blaze&r: ネザーラックから溶岩（最も効率的な素材）"
+				""
+				"&bBlizz&r: エンダーパールから共鳴エンダー"
+				""
+				"&eBlitz&r: グロウストーンから活性化グロウストーン"
+				""
+				"&4Basalz&r: レッドストーンから不安定化レッドストーン"
+			]
+			id: "0936B0DE389AE023"
+			rewards: [
+				{
+					id: "523AAAFF752165D2"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "4134EBBDBC1DF3BA"
+					item: "thermal:blizz_rod"
+					type: "item"
+				}
+				{
+					id: "6042565ACE7C5D9C"
+					item: "thermal:blitz_rod"
+					type: "item"
+				}
+				{
+					id: "28E34DEB42C182AF"
+					item: "thermal:basalz_rod"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "12001DE24F6A53D6"
+					item: "kubejs:blaze_effigy"
+					type: "item"
+				}
+				{
+					id: "5820E9F66904453A"
+					item: "kubejs:blizz_effigy"
+					type: "item"
+				}
+				{
+					id: "143EB57B720EB713"
+					item: "kubejs:blitz_effigy"
+					type: "item"
+				}
+				{
+					id: "3943080E09EDE35E"
+					item: "kubejs:basalz_effigy"
+					type: "item"
+				}
+			]
+			title: "彫像の覚醒"
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"38612D037FCFBFD6"
+				"7B47B85C4B684347"
+			]
+			id: "52CFEB2AD82AB105"
+			rewards: [
+				{
+					id: "6456832DE65C3237"
+					item: "minecraft:fire_charge"
+					type: "item"
+				}
+				{
+					id: "2D56740B2DF26B42"
+					item: "thermal:earth_charge"
+					type: "item"
+				}
+				{
+					id: "56A9FE503D677DFE"
+					item: "thermal:ice_charge"
+					type: "item"
+				}
+				{
+					id: "47E193FCF01F335C"
+					item: "thermal:lightning_charge"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "437C11AD2BCD80EE"
+					item: "minecraft:fire_charge"
+					type: "item"
+				}
+				{
+					id: "4ED38FD174BF16CE"
+					item: "thermal:earth_charge"
+					type: "item"
+				}
+				{
+					id: "0E5B1D3BCDA80953"
+					item: "thermal:ice_charge"
+					type: "item"
+				}
+				{
+					id: "7C369FE7D6130C16"
+					item: "thermal:lightning_charge"
+					type: "item"
+				}
+			]
+			title: "元素電荷"
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A3E2F3C3A7751E9"]
+			description: [
+	"メカニズムの最も重要なマシン。これがあれば、より強力な合金や回路を作り、より高度なマシンを作ることができます。"
+]
+			id: "1A983E23E641CA16"
+			rewards: [{
+				id: "1CB23BC0C9815229"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "556CA1EB382FD7EA"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1A983E23E641CA16"]
+			id: "64F073734D1826C5"
+			rewards: [{
+				id: "08880C0A8F957E47"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A87BC6A2667AB78"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"52CFEB2AD82AB105"
+				"64F073734D1826C5"
+				"3F58AD4EAE336B1E"
+			]
+			description: [
+				"元素の力と機械の力を組み合わせることで、機械のエッセンスをさらに強化し、より強力なものにすることができました。"
+				""
+				"手順はご存知の通りです。エッセンスを結晶の形に詰め込む時間です。"
+			]
+			id: "1A67C9B9ABB4E969"
+			rewards: [{
+				count: 4
+				id: "7593102392587CD6"
+				item: "kubejs:cube3"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C9B3A9DC8EC9311"
+				item: "kubejs:cube3"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1A67C9B9ABB4E969"]
+			description: [
+	"ついに、優れたストレージソリューションが見つかりました!"
+]
+			id: "167B6648066F358B"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "6DB2EB02CC46D76E"
+					item: "refinedstorage:cable"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "26B3C25AA39B1B57"
+					item: "refinedstorage:storage_housing"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "私の最愛の"
+			tasks: [{
+				id: "1E5BC3B3084F5543"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			title: "洗練された収納！"
+			x: 15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1A67C9B9ABB4E969"]
+			description: [
+	"Thermal の最高レベルの統合コンポーネント。"
+]
+			id: "63F60669596D10F2"
+			optional: true
+			rewards: [{
+				id: "0D251ADC21E3485C"
+				item: "thermal:upgrade_augment_3"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "656E0F048CF98250"
+				item: "thermal:upgrade_augment_3"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"0936B0DE389AE023"
+				"559F68C9913B2CFA"
+			]
+			description: [
+				"「すごい！純粋な炎の生き物を捕らえて、将来の計画に役立てるんだ！どうにかして超高温にできるかな？」"
+				""
+				"空のブレイズバーナーを作り、それを使ってブレイズを右クリックするとブレイズバーナーが手に入ります。ブレイズバーナーは洗面器の下に設置し、燃料を供給して調合レシピに必要な熱を供給できます。"
+				""
+				"ストローを使えば、液体燃料をブレイズバーナーに供給することもできます…"
+			]
+			id: "3F58AD4EAE336B1E"
+			rewards: [{
+				id: "51772590BB45E967"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32EBFDECB1D9CAD5"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			title: "ブレイズバーナー"
+			x: 13.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1A67C9B9ABB4E969"]
+			description: [
+	"RSよりもAE2を好むなら、方法があります。"
+]
+			id: "182209ACB7DE7F78"
+			optional: true
+			rewards: [
+				{
+					id: "09E14E179E2A0C14"
+					item: "ae2:flawless_budding_quartz"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "373AE58A0552F0D1"
+					table_id: 3863636129854262795L
+					type: "choice"
+				}
+			]
+			shape: "heart"
+			subtitle: "私のもう一人の愛する人"
+			tasks: [
+				{
+					id: "4DB195C36AF91F07"
+					item: "ae2:sky_stone_block"
+					type: "item"
+				}
+				{
+					id: "7724ACE26190768B"
+					item: "ae2:sky_dust"
+					type: "item"
+				}
+				{
+					id: "4FC7537991F758B1"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "4388CA1EDF6E8AA2"
+					item: "ae2:charged_certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "6AC6B2741C3D1D59"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			title: "AE2ルート"
+			x: 15.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["182209ACB7DE7F78"]
+			description: [
+				"これらのアイテムがあれば、MEシステムを始める準備は完了です。"
+				""
+				"MEコントローラーは、コンパクトクラフト小型化システムで作成できます。"
+			]
+			id: "511A43E0281B8171"
+			optional: true
+			rewards: [
+				{
+					count: 64
+					id: "24FD9DC7C8CA34DC"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1A624BFC478D6992"
+					item: "ae2:charged_certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "739F01D8C50A2685"
+					item: "ae2:quartz_glass"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "76C0A0877ECE001A"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "25FF6E65505B14B7"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2339252C70938B27"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0328C9D1C84B45B9"
+					item: "ae2:silicon"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "10A8B77859650451"
+					item: "ae2:controller"
+					type: "item"
+				}
+				{
+					id: "57D1FCAA1BF8131C"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "60F2ACB10074439D"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Any ME Inventory Terminal\"}"
+							}
+							items: [
+								{
+									Count: 1b
+									id: "ae2:terminal"
+								}
+								{
+									Count: 1b
+									id: "ae2:crafting_terminal"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EC67BA769B3DCC1"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Any ME Item Cell\"}"
+							}
+							items: [
+								{
+									Count: 1b
+									id: "ae2:item_storage_cell_1k"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "ae2:item_storage_cell_4k"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "ae2:item_storage_cell_16k"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "ae2:item_storage_cell_64k"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "ae2:item_storage_cell_256k"
+									tag: { }
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6301695AB309C3F6"
+					item: "ae2:inscriber"
+					type: "item"
+				}
+			]
+			title: "MEスターターキット"
+			x: 15.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["167B6648066F358B"]
+			description: [
+	"これらのアイテムがあれば、洗練されたストレージを始める準備が整います。"
+]
+			id: "18DF39CA8357AD3F"
+			optional: true
+			rewards: [
+				{
+					count: 32
+					id: "738FFC25B2818EBC"
+					item: "refinedstorage:quartz_enriched_iron"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "535A98A84DA0F9C2"
+					item: "refinedstorage:silicon"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "237F6A62CCB95F49"
+					item: "refinedstorage:basic_processor"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "65AE8C9B1E4CCE33"
+					item: "refinedstorage:improved_processor"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "32E562C47E471D7A"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "00ED491BCF377CE5"
+					item: "refinedstorage:disk_drive"
+					type: "item"
+				}
+				{
+					id: "353009C09F0128F7"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Any RS Inventory Grid\"}"
+							}
+							items: [
+								{
+									Count: 1b
+									id: "refinedstorage:grid"
+								}
+								{
+									Count: 1b
+									id: "refinedstorage:crafting_grid"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10BCB6264C141C1F"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Any RS Storage Disk\"}"
+							}
+							items: [
+								{
+									Count: 1b
+									id: "refinedstorage:1k_storage_disk"
+									tag: {
+										Id: [I;
+											-471233038
+											-526889163
+											-1092333615
+											-1707433844
+										]
+									}
+								}
+								{
+									Count: 1b
+									id: "refinedstorage:4k_storage_disk"
+									tag: {
+										Id: [I;
+											-1731940105
+											1176519294
+											-1248971641
+											1677986171
+										]
+									}
+								}
+								{
+									Count: 1b
+									id: "refinedstorage:16k_storage_disk"
+									tag: {
+										Id: [I;
+											1797258540
+											1740917755
+											-1608151539
+											1228748077
+										]
+									}
+								}
+								{
+									Count: 1b
+									id: "refinedstorage:64k_storage_disk"
+									tag: {
+										Id: [I;
+											-1521006630
+											-1921954549
+											-1124975719
+											-538253071
+										]
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "洗練されたストレージスターターキット"
+			x: 15.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["550E4D68A98180F5"]
+			id: "2C3D96AA3C9853ED"
+			rewards: [{
+				count: 4
+				id: "17708B39CFD20802"
+				item: "minecraft:bone_block"
+				type: "item"
+			}]
+			subtitle: "...そして私のもの！"
+			tasks: [{
+				count: 4L
+				id: "758CA67E62CADB3C"
+				item: "minecraft:bone_block"
+				type: "item"
+			}]
+			title: "フランケンシュタイン博士の夢"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["20E5DFEB516904B7"]
+			description: [
+				"マグマるつぼを使えば、特殊な合金の塊を溶かし、その特殊な液体を使って彫像を作ることができます。"
+				""
+				"溶岩でブレイズを作る方法は既にご存知でしょう。"
+			]
+			id: "1503E72A3505D8A6"
+			rewards: [{
+				id: "248FE48076701778"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2D76A8958643FAE2"
+					item: "thermal:machine_crucible"
+					type: "item"
+				}
+				{
+					id: "34D0D4D5A5DEA8FF"
+					item: "thermal:glowstone_bucket"
+					type: "item"
+				}
+				{
+					id: "2C9589E7B89458A1"
+					item: "thermal:redstone_bucket"
+					type: "item"
+				}
+				{
+					id: "6165A779234A6288"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "4316B79C99FE1ADB"
+					item: "thermal:ender_bucket"
+					type: "item"
+				}
+			]
+			title: "特殊流体"
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3F58AD4EAE336B1E"]
+			description: [
+				"火薬は4つの方法で入手できます。"
+				""
+				"- ブームシュルームの胞子を栽培して精錬する"
+				"- 石炭、硝石、硫黄の粉末を混ぜる"
+				"- 燃え殻粉にダメージを与えるポーションを注ぐ"
+				"- …クリーパーを栽培する"
+			]
+			id: "38612D037FCFBFD6"
+			rewards: [{
+				count: 8
+				id: "3749A3A2492200FB"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "2C814057E790C399"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["204617216E309BB4"]
+			id: "559F68C9913B2CFA"
+			rewards: [{
+				id: "58AB214AF82ACE2B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0C0692AC6830F79D"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1A67C9B9ABB4E969"]
+			description: [
+				"ハイパーボックス？"
+				""
+				"まだ若すぎる…時間を置いて、古いコンパクトマシンを使いましょう！"
+				""
+				"コンパクトマシンを作るには、コンパクトクラフト小型化システムが必要です（詳細は「スチールケースクエスト」をご覧ください）"
+			]
+			id: "184193B5D69E282D"
+			optional: true
+			rewards: [{
+				id: "1C793AF719E4A022"
+				item: "compactmachines:machine_tiny"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4AABB0F49977BD46"
+				item: "compactmachines:machine_tiny"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1A67C9B9ABB4E969"]
+			description: [
+	"さあ！パック内の種子/苗木/作物の入手方法を尋ねるのはやめましょう..."
+]
+			id: "7CBA0D27686067D3"
+			optional: true
+			rewards: [{
+				id: "4EE98BAF21AC1FA6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "424A8399288C25D3"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C3D96AA3C9853ED"]
+			description: [
+				"「骨で生命を創造できるはず！そう遠くない！」"
+				""
+				"圧縮された骨を使えば、スケルトンの頭蓋骨を作ることができます。"
+			]
+			id: "63562122843997F6"
+			rewards: [{
+				id: "1FB70040ABD3A14F"
+				item: "minecraft:skeleton_skull"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4ABD583553478E8A"
+				item: "minecraft:skeleton_skull"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1A67C9B9ABB4E969"]
+			description: [
+				"メカニカルスクイーザーは、鉱石やその他の素材から固体と液体を生産する（ほぼ）高性能な機械です。"
+				""
+				"ブレイズ/ブリズ/ブリッツ/バサルズロッドを加工して粉末や、エフィジーの製造に必要な液体を入手できます。"
+			]
+			id: "78E84152C4FC1F66"
+			optional: true
+			rewards: [{
+				id: "58EFEF87419A8DAC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2FC222A13779344C"
+				item: "integrateddynamics:mechanical_squeezer"
+				type: "item"
+			}]
+			title: "機械的に絞ってください！"
+			x: 17.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1503E72A3505D8A6"]
+			description: [
+	"覚醒した像を作成するには、Thermal Fluid Encapsulator または Create Spout を使用します。"
+]
+			id: "131EF687B47D577F"
+			rewards: [{
+				id: "3EEB22E47BFF7890"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "3A7FC622637711D2"
+					item: "create:spout"
+					type: "item"
+				}
+				{
+					id: "3D9B4DEF7E00FE39"
+					item: "thermal:machine_bottler"
+					type: "item"
+				}
+			]
+			title: "瓶詰め人形"
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0936B0DE389AE023"]
+			description: [
+	"それぞれの生きた彫像は特定の「ロッド」を落とします。これを粉砕して次の機械のエッセンスを作成する必要があります。"
+]
+			id: "7B47B85C4B684347"
+			rewards: [
+				{
+					id: "01A533B587052343"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "2C253838CD61913C"
+					item: "thermal:blizz_rod"
+					type: "item"
+				}
+				{
+					id: "518B56DB669BC855"
+					item: "thermal:blitz_rod"
+					type: "item"
+				}
+				{
+					id: "7F089156933487BC"
+					item: "thermal:basalz_rod"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0ED1167391489190"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "49C2DA94A08894C8"
+					item: "thermal:blizz_rod"
+					type: "item"
+				}
+				{
+					id: "576CAAC3E3BBE84A"
+					item: "thermal:blitz_rod"
+					type: "item"
+				}
+				{
+					id: "07028D13321B5C67"
+					item: "thermal:basalz_rod"
+					type: "item"
+				}
+			]
+			title: "ロッド"
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1A67C9B9ABB4E969"]
+			description: [
+				"「ああ！ 入手困難な黄色のキューブが私のもの！ 次はどんな色のキューブかな…」"
+				""
+				"あまり使われていないメカニズムマシンの一つが、ここではとても役に立ちます…というか、これがないとパックを進めることができません！"
+			]
+			id: "47D8F95F5317A47D"
+			rewards: [{
+				count: 4
+				id: "489E55DD09D7C060"
+				item: "kubejs:cube3_packaged"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "自分を圧縮してください！"
+			tasks: [
+				{
+					id: "5C6FA3ECB6F2FAE9"
+					item: "mekanism:osmium_compressor"
+					type: "item"
+				}
+				{
+					id: "5E2C4697524581EE"
+					item: "kubejs:cube3_packaged"
+					type: "item"
+				}
+				{
+					id: "540CD1D13B549254"
+					item: "mekanism:block_osmium"
+					type: "item"
+				}
+			]
+			title: "黄色のキューブ"
+			x: 17.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7D0C55A7BC9A056C"]
+			description: [
+				"大量の灰粉を洗浄、分解、爆破することで、多くの有用な資源が得られます。"
+				""
+				"ここでは、これを使って「6グロウストーン」を大量生産しています。"
+			]
+			id: "3A7F4033C8881566"
+			rewards: [{
+				count: 8
+				id: "1FFD55B14DCECCF2"
+				item: "minecraft:glowstone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B46E664DB9E4508"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["204617216E309BB4"]
+			description: [
+				"Mekanism の Crusher は Create の多くの機能をより高速に実行できます。"
+				""
+				"ここでは、ネザーラックから灰粉を採取します。"
+			]
+			id: "7D0C55A7BC9A056C"
+			rewards: [{
+				id: "2D49263CA34EC06B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "79649C15D4C89190"
+					item: "mekanism:crusher"
+					type: "item"
+				}
+				{
+					id: "0861BC1CD3CBEB61"
+					item: "create:cinder_flour"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3D0BAEB298C3B791"]
+			description: [
+				"卵と鶏、鶏と卵？"
+				""
+				"石工工場の材料の一つにネザーラックがあるのに、どうやって手に入れられるの？"
+				""
+				"ヒント：回転力を使う"
+			]
+			id: "204617216E309BB4"
+			rewards: [{
+				count: 64
+				id: "6792C8E0DE1C1FC0"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FEC9BD107B051D6"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["74F6647E2AE7C5BF"]
+			description: [
+				"IFのもう一つの興味深い機械、石工工場。"
+				""
+				"2つのモードがあります。"
+				""
+				"- 生成モード：溶岩と水からネザーラックやその他の石材を生成します。"
+				""
+				"- 工場モード：木材と石材から様々なアイテムやブロックを生成します。"
+			]
+			id: "3D0BAEB298C3B791"
+			rewards: [{
+				id: "62B91F44565FAAD1"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "1CEE5D232A77052F"
+				item: "industrialforegoing:material_stonework_factory"
+				type: "item"
+			}]
+			title: "働け、石を働かせろ！"
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["550E4D68A98180F5"]
+			description: [
+	""
+]
+			id: "6D15A9C7A60DC717"
+			rewards: [{
+				id: "2511746D517E659F"
+				item: "kubejs:cube2"
+				type: "item"
+			}]
+			tasks: [{
+				id: "573313AF8D8C2EB5"
+				item: {
+					Count: 1b
+					id: "adminshop:permit"
+					tag: {
+						display: {
+							Lore: [
+								"[{\"text\":\"Buy: Crude Oil\",\"italic\":false}]"
+								"[{\"text\":\"Buy: Oil Sand\",\"italic\":false}]"
+								"[{\"text\":\"Buy: Raw Osmium\",\"italic\":false}]"
+								"[{\"text\":\"Buy: Diamond Ore\",\"italic\":false}]"
+								"[{\"text\":\"Buy: Niter Ore\",\"italic\":false}]"
+								"[{\"text\":\"Buy: Sulfur Ore\",\"italic\":false}]"
+								"[{\"text\":\"Buy: Ancient Debris\",\"italic\":false}]"
+								"[{\"text\":\"Buy: Nether Gobber Ore\",\"italic\":false}]"
+								"[{\"text\":\"Buy: Basic Create Items\",\"italic\":false}]"
+								"[{\"text\":\"Sell: Improved Mechanical Crystal\",\"italic\":false}]"
+							]
+							Name: "[{\"text\":\"[T2] Trade Permit\",\"color\":\"magenta\",\"italic\":false}]"
+						}
+						key: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"550E4D68A98180F5"
+				"204617216E309BB4"
+			]
+			description: [
+				"Mekanism の流体輸送ソリューション。"
+				""
+				"Netherrack is a very good source of lava in this modpack (almost twice as fast as cobblestone)."
+			]
+			id: "42C45408AC05B498"
+			rewards: [{
+				id: "0F3B89038F35F644"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5465F96CB57980E0"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			title: "溶岩生成はOPです！"
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["38555B7B5AE725D4"]
+			description: [
+	"Mekanism のアイテム輸送ソリューション。"
+]
+			id: "6559161759CB03B7"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "2EC367DFD9875A54"
+				item: "mekanism:basic_mechanical_pipe"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7D45659EBD165567"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Any Mechanical Pipe\"}"
+						}
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:basic_mechanical_pipe"
+							}
+							{
+								Count: 1b
+								id: "mekanism:advanced_mechanical_pipe"
+							}
+							{
+								Count: 1b
+								id: "mekanism:elite_mechanical_pipe"
+							}
+							{
+								Count: 1b
+								id: "mekanism:ultimate_mechanical_pipe"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "機械パイプ"
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["08C76B396B7ACA4B"]
+			description: [
+	"Mekanism のエネルギー輸送ソリューション。"
+]
+			id: "38555B7B5AE725D4"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "0657F9353985185F"
+				item: "mekanism:basic_logistical_transporter"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1FF84F8D3581A381"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Any Logistical Transporter\"}"
+						}
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:basic_logistical_transporter"
+							}
+							{
+								Count: 1b
+								id: "mekanism:advanced_logistical_transporter"
+							}
+							{
+								Count: 1b
+								id: "mekanism:elite_logistical_transporter"
+							}
+							{
+								Count: 1b
+								id: "mekanism:ultimate_logistical_transporter"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "物流輸送業者"
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["550E4D68A98180F5"]
+			description: [
+	"すべてのメカニズムの物流パイプをアップグレードして、スループットを向上させることができます。"
+]
+			id: "08C76B396B7ACA4B"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "5F552566F2C24AC5"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5D0001CEFA17F21F"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Any Universal Cable\"}"
+						}
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:basic_universal_cable"
+							}
+							{
+								Count: 1b
+								id: "mekanism:advanced_universal_cable"
+							}
+							{
+								Count: 1b
+								id: "mekanism:elite_universal_cable"
+							}
+							{
+								Count: 1b
+								id: "mekanism:ultimate_universal_cable"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "ユニバーサルケーブル"
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3513339FE594C05C"]
+			icon: "mekanism:alloy_atomic"
+			id: "620E4524D30159AA"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "5425E86CDA0643A6"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "51607BCCD2E526E9"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:ultimate_universal_cable"
+							}
+							{
+								Count: 1b
+								id: "mekanism:ultimate_mechanical_pipe"
+							}
+							{
+								Count: 1b
+								id: "mekanism:ultimate_logistical_transporter"
+							}
+							{
+								Count: 1b
+								id: "mekanism:ultimate_pressurized_tube"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "究極のメカニズムロジスティクス"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D8A15299F1A5FD8"]
+			icon: "mekanism:alloy_reinforced"
+			id: "3513339FE594C05C"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "6750C71EFA3E46CF"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "44CB165ABD5B8E33"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:elite_universal_cable"
+							}
+							{
+								Count: 1b
+								id: "mekanism:elite_mechanical_pipe"
+							}
+							{
+								Count: 1b
+								id: "mekanism:elite_logistical_transporter"
+							}
+							{
+								Count: 1b
+								id: "mekanism:elite_pressurized_tube"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "エリートメカニズムロジスティクス"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["550E4D68A98180F5"]
+			description: [
+				"活性化された製錬所は、RF を消費してアイテムを素早く製錬することができ、アップグレードすると一度に複数のアイテムを製錬できるようになります。"
+				""
+				"Pro tip: you can upgrade up to 8 placed and connected basic pipes by right clicking with a piece of infused alloy "
+				"{image:mekanism:item/alloy_infused width:50 height:50 align:1}"
+			]
+			icon: "mekanism:alloy_infused"
+			id: "3D8A15299F1A5FD8"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "2E85D1C0E7C6040D"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7DF6E6F76F9C0321"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:advanced_universal_cable"
+							}
+							{
+								Count: 1b
+								id: "mekanism:advanced_mechanical_pipe"
+							}
+							{
+								Count: 1b
+								id: "mekanism:advanced_logistical_transporter"
+							}
+							{
+								Count: 1b
+								id: "mekanism:advanced_pressurized_tube"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "先進メカニズム物流"
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["550E4D68A98180F5"]
+			description: [
+	"多くのMekanismマシンはTierインストーラーでアップグレードできます。これにより、一度に処理できるアイテムの量が増え、全体的な速度が大幅に向上します。ただし、一部のマシンはこの方法ではアップグレードできません。"
+]
+			id: "3E46FBB08203CFFC"
+			optional: true
+			rewards: [{
+				id: "03190CD048189AFC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4EDEADCA66981F6C"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["550E4D68A98180F5"]
+			description: [
+	"Mekanismマシンには、最大8つの速度/エネルギーアップグレードを挿入して、それぞれ処理速度とエネルギー効率を向上させることができます。一部のマシンでは、ガス消費効率を向上させるガスアップグレードを最大8つまで挿入できます。"
+]
+			id: "459286FB757CF09E"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "6983C8AF41438B59"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "694FD689B92AA0C2"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			title: "Mekanismマシンティア"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["550E4D68A98180F5"]
+			description: [
+	"これらのジェネレーターはアイテムや液体を消費してRFを生成します。RF出力が高く、変動が少ないという利点があります。これらのアイテム上でShift + Nを押すと、基本的な説明が表示されます。"
+]
+			id: "543452935C91E989"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "273CF1C888B4640F"
+					item: "mekanism:upgrade_speed"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1FE83D441A940124"
+					item: "mekanism:upgrade_energy"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7F1AD60BB7FD6799"
+					item: "mekanism:upgrade_gas"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6B49CF6900FE6740"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:upgrade_energy"
+							}
+							{
+								Count: 1b
+								id: "mekanism:upgrade_speed"
+							}
+							{
+								Count: 1b
+								id: "mekanism:upgrade_gas"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Mekanismマシンのアップグレード"
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["725C03AFA45FEE68"]
+			description: [
+	"これらのメカニズムジェネレーターは、能動的な材料コストをかけずに受動的なRF（高周波）生成を可能にします。ただし、出力は通常変動するため、エネルギー貯蔵装置で調整する必要がある場合があります。これらの項目の上でShift + Nを押すと、基本的な説明が表示されます。"
+]
+			id: "0284F10C4BF84652"
+			optional: true
+			rewards: [{
+				id: "4E6CD6FC00807DE5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6B3444E34F8BEA58"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanismgenerators:heat_generator"
+							}
+							{
+								Count: 1b
+								id: "mekanismgenerators:bio_generator"
+							}
+							{
+								Count: 1b
+								id: "mekanismgenerators:gas_burning_generator"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "能動発電"
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["550E4D68A98180F5"]
+			description: [
+	"ガラス！"
+]
+			id: "725C03AFA45FEE68"
+			optional: true
+			rewards: [{
+				id: "5E9EAB7CBABC5C40"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "563C7EEDCF04E1DF"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanismgenerators:heat_generator"
+							}
+							{
+								Count: 1b
+								id: "mekanismgenerators:advanced_solar_generator"
+							}
+							{
+								Count: 1b
+								id: "mekanismgenerators:wind_generator"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "受動発電"
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["550E4D68A98180F5"]
+			id: "74D55DEF319BBD5B"
+			optional: true
+			rewards: [{
+				id: "56B8E904D092F42D"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2274CF939363ECC5"
+					item: "mekanism:basic_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "6C49FABBCB2F4D3D"
+					item: "mekanism:basic_chemical_tank"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["581BD2322D42904A"]
+			description: [
+	"ブラストチラーを使えば、溶けたガラスをガラスブロックに固めることができます。"
+]
+			id: "0096156DCFDD84C9"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "6851478C0D37DA52"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "45A5F7CDE90B87B8"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"550E4D68A98180F5"
+				"0DBD0964C9737F4A"
+			]
+			description: [
+				"砂を溶かして液体ガラスにすることで、ガラス製造のスピードを上げることができます。"
+				""
+				"熱機械のスピードアップもお忘れなく！"
+			]
+			id: "581BD2322D42904A"
+			optional: true
+			rewards: [{
+				id: "24BFBB40E9698B96"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "31E0C340CDC8B6FB"
+				item: "thermal:machine_chiller"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["42C45408AC05B498"]
+			description: [
+				"高度なIFマシンを作成するには、高度なマシンフレームが必要です。"
+				""
+				"これらは「ピンクスライム」を使って、溶解チャンバーまたは熱流体カプセル化装置（どちらもこの段階で使用可能）で作成できます。"
+			]
+			id: "0DBD0964C9737F4A"
+			optional: true
+			rewards: [{
+				id: "71A5A9DBF6A9C767"
+				item: "kubejs:molten_glass_bucket"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7FDC9AA2C7BFABD6"
+				item: "kubejs:molten_glass_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["550E4D68A98180F5"]
+			description: [
+				"Steel Casings を作成するには、Compact Crafting の小型化手順を使用する必要があります。"
+				""
+				"これを行うには、フィールドプロジェクターが4つ必要です（1つ作成すると、その他のModの章で3つ無料で入手できます）。"
+				""
+				"最初のプロジェクターを7ブロックの高さに配置し、右クリックして他の3つの位置を確認します。"
+				""
+				"4つのプロジェクターを配置すると、オレンジ色のボリューム内のブロックのスキャンを開始します。"
+			]
+			id: "74F6647E2AE7C5BF"
+			rewards: [{
+				id: "7E980A8CBCFF22F8"
+				item: "industrialforegoing:pink_slime_bucket"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "02038301A04EF624"
+					item: "industrialforegoing:mob_slaughter_factory"
+					type: "item"
+				}
+				{
+					id: "618AD9EFD7148045"
+					item: "industrialforegoing:pink_slime_bucket"
+					type: "item"
+				}
+				{
+					id: "3407189FE21B3E18"
+					item: "industrialforegoing:machine_frame_advanced"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["550E4D68A98180F5"]
+			description: [
+				"誘導製錬炉を使用すると、単一のインゴットを製錬するよりも良い比率を得るために、特別な合金のブロックを作成できます。"
+				""
+				"To do this you need 4 Field Projectors (craft 1 and get 3 for free in the Other Mods Chapter)."
+				""
+				"Put down the first projector at 7 blocks height and right click to see the positions for the 3 others."
+				""
+				"Once the 4 projectors are placed they will start scanning for blocks in the orange volume."
+				""
+				"Check the 3d recipe in JEI/EMI and place the correct blocks at each of the 3 layers."
+				""
+				"Throw the catalyst item (in this case a Regular Mechanical Essence) on the blocks in the orange volume and the crafting will start."
+				""
+				"The Steel Casings items will drop after a few seconds."
+			]
+			id: "5A3E2F3C3A7751E9"
+			rewards: [{
+				count: 2
+				id: "5FCBD6FFF76DB06B"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F05A0BA1A8DF60F"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			title: "3Dプリントのスチールケース"
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"1B6E93FE3C6D5966"
+				"3A7F4033C8881566"
+			]
+			description: ["Using the induction smelter you can create block of special alloys to get a better ratio than smelting single ingots."]
+			id: "20E5DFEB516904B7"
+			rewards: [{
+				id: "361C76853AB6F2B9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "578E46D393F58B00"
+					item: "thermal:machine_smelter"
+					type: "item"
+				}
+				{
+					id: "62912848C293B09C"
+					item: "thermal:lumium_block"
+					type: "item"
+				}
+				{
+					id: "73B4A6874F44A4D0"
+					item: "thermal:signalum_block"
+					type: "item"
+				}
+				{
+					id: "7A66D2BEF81F1BCE"
+					item: "thermal:enderium_block"
+					type: "item"
+				}
+			]
+			title: "特殊合金"
+			x: 9.0d
+			y: -2.5d
+		}
+	]
+	title: "第3章 メカニズム"
+}
